@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 // Define un componente de estilo usando styled-components
 const StyledButton = styled.button`
-  background-color: red;
+  backround: grey;
   color: white;
   font-size: 16px;
   padding: 10px 20px;
@@ -17,8 +17,8 @@ const StyledButton = styled.button`
 `;
 
 // Componente funcional que usa el componente de estilo
-const Button = () => {
-  return <StyledButton>Click asas</StyledButton>;
+const Button = ({ children }) => {
+  return <StyledButton>{children}</StyledButton>;
 };
 
 export default Button;
