@@ -1,5 +1,6 @@
 import "./App.css";
-
+import { ThemeProvider } from "styled-components";
+import theme from "./theme";
 import Header from "./components/Header/Header";
 import Row from "./components/Row/Row";
 // import styled from "styled-components";
@@ -7,8 +8,10 @@ import Row from "./components/Row/Row";
 function App() {
   return (
     <>
-      <Header />
-      <Row></Row>
+      <ThemeProvider theme={theme}>
+        <Header />
+        <Row></Row>
+      </ThemeProvider>
     </>
   );
 }

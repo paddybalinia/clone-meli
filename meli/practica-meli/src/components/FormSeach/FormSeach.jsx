@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const FormStyle = styled.form`
+  width: 592px;
   background: white;
   display: flex;
   flex-wrap: nowrap;
@@ -10,9 +11,6 @@ const FormStyle = styled.form`
   border-radius: 4px;
   width: 592px;
 `;
-
-const FormSeach = ({ children }) => {
+export default function FormSeach({ children }) {
   return <FormStyle>{children}</FormStyle>;
-};
-
-export default FormSeach;
+}

@@ -10,8 +10,6 @@ const RowStyle = styled.div`
   width: 100%;
 `;
 
-// Componente funcional que usa el componente de estilo
-const Row = ({ children }) => {
+export default function Row({ children }) {
   return <RowStyle>{children}</RowStyle>;
-};
-export default Row;
+}
