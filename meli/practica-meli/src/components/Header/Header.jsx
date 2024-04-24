@@ -1,4 +1,3 @@
-import Logo from "../../assets/logo.svg";
 import FormSeach from "../FormSeach/FormSeach";
 import IconSearch from "../Icons/Seach";
 import IconLocation from "../Icons/Location";
@@ -8,7 +7,6 @@ import {
   HeaderStyle,
   StyledInput,
   StyledButton,
-  RowStyle,
   BoxLocation,
   TextLocation,
   NavPrimary,
@@ -16,22 +14,24 @@ import {
   NavSecondary,
   NavSecondaryText,
   LinkCart,
+  IconLogoStyle,
+  IconLogoDesktopStyle,
 } from "./HeaderStyle";
+
 import FilteredRow from "../Row/FilteredRow";
+import useMobileDetector from "../../hooks/useMobileDetector";
+import LogoDesktop from "../Icons/LogoDesktop";
 
 export default function Header() {
+  const isMobile = useMobileDetector();
+
   return (
     <>
       <HeaderStyle>
         <FilteredRow flexDirection="row" gap="70px" justifyContent="flex-start">
-          <img
-            src={Logo}
-            className="logo"
-            title="Logo ML"
-            alt="Logo ML"
-            width={158}
-            height={38}
-          />
+          <IconLogoStyle width="45" height="auto"></IconLogoStyle>
+          <IconLogoDesktopStyle width={158} height={46} />
+
           <FormSeach>
             <StyledInput placeholder="Buscar productos, marcas y más..."></StyledInput>
             <StyledButton>
@@ -41,7 +41,7 @@ export default function Header() {
         </FilteredRow>
         <FilteredRow justifyContent="space-between">
           <BoxLocation>
-            <IconLocation fill="#707070"></IconLocation>
+            <IconLocation width={12} height="auto" fill="black"></IconLocation>
             <TextLocation>Enviar a Capital Federal</TextLocation>
           </BoxLocation>
           <NavPrimary>

@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import IconLogo from "../Icons/Logo";
+import IconLogoDesktop from "../Icons/LogoDesktop";
 
 // Define un componente de estilo usando styled-components
 export const HeaderStyle = styled.header`
@@ -7,9 +9,11 @@ export const HeaderStyle = styled.header`
   display: flex;
   flex-direction: column;
   padding: 10px 0;
-  gap: 25px;
+  gap: 10px;
   width: 100%;
+
   @media (min-width: 768px) {
+    gap: 25px;
   }
 `;
 
@@ -24,6 +28,7 @@ export const StyledInput = styled.input`
   line-height: 16px;
   padding: 10px 60px 10px 15px;
   width: 100%;
+
   &::placeholder {
     color: ${(props) => props.theme.colors.colorText300};
   }
@@ -73,11 +78,23 @@ export const TextLocation = styled.span`
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
+
+  @media (min-width: 768px) {
+    font-size: 13px;
+  }
 `;
 
 export const BoxLocation = styled.div`
   display: flex;
-  gap: 10px;
+  align-items: center;
+  gap: 8px;
+
+  @media (min-width: 768px) {
+    & svg {
+      width: 16px;
+      height: auto;
+    }
+  }
 `;
 
 export const NavPrimary = styled.nav`
@@ -85,6 +102,11 @@ export const NavPrimary = styled.nav`
   gap: 24px;
   font-size: 14px;
   line-height: 18px;
+  display: none;
+
+  @media (min-width: 768px) {
+    display: flex;
+  }
 `;
 
 export const NavPrimaryText = styled.a`
@@ -100,6 +122,11 @@ export const NavSecondary = styled.nav`
   gap: 20px;
   font-size: 14px;
   line-height: 18px;
+  display: none;
+
+  @media (min-width: 768px) {
+    display: flex;
+  }
 `;
 
 export const NavSecondaryText = styled.a`
@@ -108,6 +135,22 @@ export const NavSecondaryText = styled.a`
 
   &:hover {
     color: rgba(51, 51, 51, 0.9);
+  }
+`;
+
+export const IconLogoStyle = styled(IconLogo)`
+  margin: 0 15px 0 0;
+  @media (min-width: 768px) {
+    display: none;
+  }
+`;
+
+export const IconLogoDesktopStyle = styled(IconLogoDesktop)`
+  display: none;
+  margin: 0;
+
+  @media (min-width: 768px) {
+    display: block;
   }
 `;
 

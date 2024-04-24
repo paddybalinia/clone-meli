@@ -9,10 +9,16 @@ const Row = styled(
   flex-direction: ${(props) => props.flexDirection || "row"};
   justify-content: ${(props) => props.justifyContent || "flex-start"};
   align-items: ${(props) => props.alignItems || "flex-start"};
-  gap: ${(props) => props.gap || "0"};
+
   width: 100%;
   max-width: 1220px;
   margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+
+  @media (min-width: 768px) {
+    gap: ${(props) => props.gap || "0"};
+  }
 `;
 
 export default function FilteredRow({
