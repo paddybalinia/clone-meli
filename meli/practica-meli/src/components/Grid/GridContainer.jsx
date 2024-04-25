@@ -16,7 +16,7 @@ const GridItem = styled.div`
 
 export default function Grid({ columns, gap }) {
   return (
-    <Module>
+    <Module title="Titulo">
       <GridContainer columns={columns} gap={gap}>
         <GridItem>1</GridItem>
         <GridItem>1</GridItem>

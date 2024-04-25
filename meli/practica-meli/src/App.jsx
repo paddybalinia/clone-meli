@@ -11,7 +11,6 @@ function App() {
   return (
     <>
       <GlobalStyle />
-
       <Header />
       <FilteredRow>
         <Grid columns={4} gap={20}></Grid>

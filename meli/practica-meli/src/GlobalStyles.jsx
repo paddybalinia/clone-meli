@@ -2,13 +2,12 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   :root {
-    font-family: "ProximaNova", Arial, Helvetica, sans-serif;
+    font-family: ${(props) => props.theme.fonts.primary} ;
     line-height: 1.5;
     font-weight: 400;
 
     color-scheme: light dark;
     color: black;
-
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
