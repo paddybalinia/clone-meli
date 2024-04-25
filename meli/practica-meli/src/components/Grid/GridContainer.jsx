@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Module from "../Module/Module";
+import CardProduct from "../CardProduct/CardProdct";
 
 const GridContainer = styled(({ columns, gap, ...rest }) => <div {...rest} />)`
   display: grid;
@@ -8,20 +9,14 @@ const GridContainer = styled(({ columns, gap, ...rest }) => <div {...rest} />)`
   width: 100%;
 `;
 
-const GridItem = styled.div`
-  background-color: lightgray;
-  padding: 20px;
-  border-radius: 5px;
-`;
-
 export default function Grid({ columns, gap }) {
   return (
-    <Module title="Titulo">
+    <Module title="Más vendidos en la semana">
       <GridContainer columns={columns} gap={gap}>
-        <GridItem>1</GridItem>
-        <GridItem>1</GridItem>
-        <GridItem>1</GridItem>
-        <GridItem>1</GridItem>
+        <CardProduct />
+        <CardProduct />
+        <CardProduct />
+        <CardProduct />
       </GridContainer>
     </Module>
   );
