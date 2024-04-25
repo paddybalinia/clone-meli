@@ -104,7 +104,7 @@ export const NavPrimary = styled.nav`
   line-height: 18px;
   display: none;
 
-  @media (min-width: 768px) {
+  @media (min-width: 1050px) {
     display: flex;
   }
 `;

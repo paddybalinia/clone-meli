@@ -19,17 +19,13 @@ import {
 } from "./HeaderStyle";
 
 import FilteredRow from "../Row/FilteredRow";
-import useMobileDetector from "../../hooks/useMobileDetector";
-import LogoDesktop from "../Icons/LogoDesktop";
 
 export default function Header() {
-  const isMobile = useMobileDetector();
-
   return (
     <>
       <HeaderStyle>
         <FilteredRow flexDirection="row" gap="70px" justifyContent="flex-start">
-          <IconLogoStyle width="45" height="auto"></IconLogoStyle>
+          <IconLogoStyle width={45} height={45}></IconLogoStyle>
           <IconLogoDesktopStyle width={158} height={46} />
 
           <FormSeach>
@@ -41,7 +37,7 @@ export default function Header() {
         </FilteredRow>
         <FilteredRow justifyContent="space-between">
           <BoxLocation>
-            <IconLocation width={12} height="auto" fill="black"></IconLocation>
+            <IconLocation width={12} height={17} fill="black"></IconLocation>
             <TextLocation>Enviar a Capital Federal</TextLocation>
           </BoxLocation>
           <NavPrimary>
