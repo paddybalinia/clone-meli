@@ -32,8 +32,63 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-family: "ProximaNova";
     margin: 0;
-    
     min-height: 100%;
+  }
+
+
+  a {
+    text-decoration: none;
+    outline: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+
+  figure,
+  ul,
+  ol,
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  img {
+    border: none;
+    vertical-align: top;
+    text-indent: -9999px;
+  }
+
+  fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+    padding: 0;
+  }
+
+  input:focus,
+  input {
+    font-size: 16px;
+  }
+
+  *:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
 
   @font-face {
