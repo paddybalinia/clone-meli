@@ -12,14 +12,24 @@ import {
   ComponentPrice,
 } from "./CardProdctStyle";
 
-export default function CardProduct() {
+export default function CardProduct({
+  title,
+  src,
+  price,
+  shipping,
+  installments,
+  discounts,
+}) {
+  const { free_shipping = false } = shipping || {};
+  const { quantity = false, amount = false } = installments || {};
   return (
     <>
       <ItemProduct>
+        {free_shipping}
         <FigureStyle>
           <a href="#" title="title" target="_blank" rel="noopener noreferrer">
             <Image
-              src={`https://via.placeholder.com/300x300`}
+              src={src}
               title={"title"}
               alt={"title"}
               width={300}
@@ -27,31 +37,38 @@ export default function CardProduct() {
             />
           </a>
         </FigureStyle>
+
         <ItemProductData>
-          <ItemProductTitle>
-            lorem impsum lorem impsum lorem impsum lorem impsum
-          </ItemProductTitle>
+          <ItemProductTitle>{title}</ItemProductTitle>
 
           <ComponentPrice>
-            <PriceOlder>
-              <div>
-                <span>$</span>
-                <span>2400</span>
-              </div>
-            </PriceOlder>
-            <CardProductPrice />
-            <ItemProductDues>
-              <span>
-                en <span>6x</span>
-                <span>$</span>7.354
-              </span>
-            </ItemProductDues>
+            {discounts && (
+              <PriceOlder>
+                <div>
+                  <span>$</span>
+                  <span>{price}</span>
+                </div>
+              </PriceOlder>
+            )}
+
+            <CardProductPrice price={price} discounts={discounts} />
+            {installments && (
+              <ItemProductDues>
+                <span>
+                  en <span>{quantity}</span>
+                  <span> $</span>
+                  {amount}
+                </span>
+              </ItemProductDues>
+            )}
           </ComponentPrice>
 
-          <ItemProductShipping>
-            <span>Llega gratis mañana</span>
-            <IconFull />
-          </ItemProductShipping>
+          {free_shipping && (
+            <ItemProductShipping>
+              <span>Llega gratis mañana</span>
+              <IconFull />
+            </ItemProductShipping>
+          )}
         </ItemProductData>
       </ItemProduct>
     </>

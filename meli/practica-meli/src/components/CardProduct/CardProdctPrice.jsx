@@ -1,16 +1,18 @@
 import { BoxPrice, DiscountPrice, Price } from "./CardProdctStyle";
 
-export default function CardProductPrice({}) {
+export default function CardProductPrice({ price, discounts }) {
   return (
     <>
       <BoxPrice>
         <Price>
           <span>$</span>
-          <span>1200</span>
+          <span>{price}</span>
         </Price>
-        <DiscountPrice>
-          <span>55% off</span>
-        </DiscountPrice>
+        {discounts && (
+          <DiscountPrice>
+            <span>55% off</span>
+          </DiscountPrice>
+        )}
       </BoxPrice>
     </>
   );
