@@ -15,5 +15,5 @@ const FormStyle = styled.form`
   }
 `;
 export default function FormSeach({ children }) {
-  return <FormStyle>{children}</FormStyle>;
+  return <FormStyle action="/items">{children}</FormStyle>;
 }

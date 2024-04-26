@@ -28,7 +28,7 @@ export default function Header() {
           <IconLogoStyle width={45} height={45}></IconLogoStyle>
           <IconLogoDesktopStyle width={158} height={46} />
 
-          <FormSeach action="/items">
+          <FormSeach>
             <StyledInput
               type="text"
               name="search"
