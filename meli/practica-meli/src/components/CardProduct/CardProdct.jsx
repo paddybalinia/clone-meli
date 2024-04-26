@@ -1,10 +1,15 @@
 import IconFull from "../Icons/Full";
 import Image from "../Image/Image";
+import CardProductPrice from "./CardProdctPrice";
 import {
   FigureStyle,
   ItemProduct,
   ItemProductTitle,
   ItemProductData,
+  ItemProductShipping,
+  ItemProductDues,
+  PriceOlder,
+  ComponentPrice,
 } from "./CardProdctStyle";
 
 export default function CardProduct() {
@@ -27,31 +32,26 @@ export default function CardProduct() {
             lorem impsum lorem impsum lorem impsum lorem impsum
           </ItemProductTitle>
 
-          <div className="price">
-            <div>
-              <span>$</span>
-              <span>2400</span>
-            </div>
-            <div className="current">
+          <ComponentPrice>
+            <PriceOlder>
               <div>
                 <span>$</span>
-                <span>1200</span>
+                <span>2400</span>
               </div>
-              <div className="discount">
-                <span>55% off</span>
-              </div>
-            </div>
-            <div>
+            </PriceOlder>
+            <CardProductPrice />
+            <ItemProductDues>
               <span>
                 en <span>6x</span>
                 <span>$</span>7.354
               </span>
-            </div>
-          </div>
-          <div className="shipping">
+            </ItemProductDues>
+          </ComponentPrice>
+
+          <ItemProductShipping>
             <span>Llega gratis mañana</span>
             <IconFull />
-          </div>
+          </ItemProductShipping>
         </ItemProductData>
       </ItemProduct>
     </>

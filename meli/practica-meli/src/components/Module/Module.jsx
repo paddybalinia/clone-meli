@@ -5,7 +5,7 @@ const ModuleStyle = styled.div`
   border-radius: 8px;
   padding: 20px;
   margin: 30px 0;
-  width: 100%;
+  /* width: 100%; */
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
 `;
 const ModuleTitle = styled.h2`
@@ -18,7 +18,8 @@ const ModuleTitle = styled.h2`
 export default function Module({ children, title }) {
   return (
     <ModuleStyle>
-      <ModuleTitle>{title}</ModuleTitle>
+      {title && <ModuleTitle>{title}</ModuleTitle>}
+
       {children}
     </ModuleStyle>
   );

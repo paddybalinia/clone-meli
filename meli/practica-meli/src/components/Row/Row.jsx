@@ -14,20 +14,6 @@ export const RowStyle = styled.div`
   width: 100%;
 `;
 
-// export default function Row() {
-//   return <RowStyle></RowStyle>;
-// }
-
-// export function FilteredRow({
-//   flexDirection,
-//   justifyContent,
-//   alignItems,
-//   childen
-//   ...rest
-// }) {
-//   return <Row {...rest}>{childen}</Row>;
-// }
-
 export default function FilteredRow({
   flexDirection,
   justifyContent,
