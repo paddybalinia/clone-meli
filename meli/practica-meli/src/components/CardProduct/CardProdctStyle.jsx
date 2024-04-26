@@ -11,7 +11,10 @@ export const ItemProductData = styled.div`
   gap: 8px;
 `;
 
-export const FigureStyle = styled.figure``;
+export const FigureStyle = styled.figure`
+  position: relative;
+  max-width: 210px;
+`;
 
 export const ItemProductTitle = styled.h3`
   font-weight: 400;

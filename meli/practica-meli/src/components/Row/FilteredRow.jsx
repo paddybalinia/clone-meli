@@ -17,7 +17,7 @@ const Row = styled(
   box-sizing: border-box;
 
   @media (min-width: 768px) {
-    gap: ${(props) => props.gap || "0"};
+    gap: ${(props) => props.gap + "px" || "0"};
   }
 `;
 

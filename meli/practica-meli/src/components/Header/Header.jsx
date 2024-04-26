@@ -24,13 +24,17 @@ export default function Header() {
   return (
     <>
       <HeaderStyle>
-        <FilteredRow flexDirection="row" gap="70px" justifyContent="flex-start">
+        <FilteredRow flexDirection="row" gap="70" justifyContent="flex-start">
           <IconLogoStyle width={45} height={45}></IconLogoStyle>
           <IconLogoDesktopStyle width={158} height={46} />
 
-          <FormSeach>
-            <StyledInput placeholder="Buscar productos, marcas y más..."></StyledInput>
-            <StyledButton>
+          <FormSeach action="/items">
+            <StyledInput
+              type="text"
+              name="search"
+              placeholder="Buscar productos, marcas y más..."
+            ></StyledInput>
+            <StyledButton type="submit">
               <IconSearch width={17} height={18} fill="#707070"></IconSearch>
             </StyledButton>
           </FormSeach>

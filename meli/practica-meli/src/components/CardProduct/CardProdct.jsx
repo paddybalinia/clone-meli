@@ -19,11 +19,11 @@ export default function CardProduct() {
         <FigureStyle>
           <a href="#" title="title" target="_blank" rel="noopener noreferrer">
             <Image
-              src={`https://via.placeholder.com/150x150`}
+              src={`https://via.placeholder.com/300x300`}
               title={"title"}
               alt={"title"}
-              width={150}
-              height={150}
+              width={300}
+              height={300}
             />
           </a>
         </FigureStyle>
