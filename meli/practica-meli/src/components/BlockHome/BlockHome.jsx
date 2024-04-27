@@ -20,9 +20,7 @@ export default function BlockHome() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(
-          "https://api.mercadolibre.com/sites/MLA/search?q=:oferta&limit=6"
-        );
+        const response = await fetch(APIURL);
         const data = await response.json();
         setItems(data.results);
       } catch (error) {
@@ -33,7 +31,6 @@ export default function BlockHome() {
     fetchData();
   }, []); // Empty dependency array means this effect will only run once, similar to componentDidMount
 
-  console.log("items" + items);
   return (
     <BlockHomeStyled>
       <FilteredRow>
