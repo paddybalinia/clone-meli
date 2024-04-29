@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 import IconFull from "../Icons/Full";
 import Image from "../Image/Image";
 import CardProductPrice from "./CardProdctPrice";
@@ -74,3 +76,17 @@ export default function CardProduct({
     </>
   );
 }
+
+CardProduct.propTypes = {
+  title: PropTypes.string,
+  src: PropTypes.string,
+  price: PropTypes.number,
+  shipping: PropTypes.shape({
+    free_shipping: PropTypes.bool,
+  }),
+  installments: PropTypes.shape({
+    quantity: PropTypes.number,
+    amount: PropTypes.number,
+  }),
+  discounts: PropTypes.number,
+};
