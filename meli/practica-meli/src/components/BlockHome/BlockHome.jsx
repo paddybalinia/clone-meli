@@ -3,7 +3,8 @@ import Grid from "../Grid/GridContainer";
 import FilteredRow from "../Row/FilteredRow";
 import styled from "styled-components";
 
-import useFetchData from "../../hooks/useFetchData";
+import useDataProducts from "../../hooks/useDataProducts";
+import { useGetUrl } from "../../hooks/useGetUrl";
 
 const BlockHomeStyled = styled.div`
   display: flex;
@@ -13,11 +14,26 @@ const BlockHomeStyled = styled.div`
 `;
 
 export default function BlockHome() {
-  const { data: items } = useFetchData(
-    `https://api.mercadolibre.com/sites/MLA/search?q=:Apple?limit=4#json`
+  const { data: items } = useDataProducts(
+    useGetUrl({
+      API: "https://api.mercadolibre.com/sites/MLA/search?q=:",
+      SEARCH: "apple",
+      LIMIT: "4",
+    })
   );
-  const { data: items2 } = useFetchData(
-    `https://api.mercadolibre.com/sites/MLA/search?q=:termo?limit=4#json`
+  const { data: items2 } = useDataProducts(
+    useGetUrl({
+      API: "https://api.mercadolibre.com/sites/MLA/search?q=:",
+      SEARCH: "oferta",
+      LIMIT: "6",
+    })
+  );
+  const { data: items3 } = useDataProducts(
+    useGetUrl({
+      API: "https://api.mercadolibre.com/sites/MLA/search?q=:",
+      SEARCH: "apple",
+      LIMIT: "1",
+    })
   );
 
   return (
@@ -25,58 +41,65 @@ export default function BlockHome() {
       <FilteredRow>
         <Grid columns={6} gap={13} title="Más vendidos en la semana">
           {items2 &&
-            items2
-              .slice(0, 6)
-              .map(({ id, thumbnail, title, price }) => (
-                <CardProduct
-                  key={id}
-                  src={thumbnail}
-                  title={title}
-                  price={price}
-                />
-              ))}
+            items2.map(({ id, thumbnail, title, price }) => (
+              <CardProduct
+                key={id}
+                src={thumbnail}
+                title={title}
+                price={price}
+              />
+            ))}
         </Grid>
       </FilteredRow>
 
       <FilteredRow gap="20">
-        {/* <Grid columns={1} gap={13} title="Oferta">
-          {items &&
-            items
-              .slice(0, 1)
-              .map(({ id, thumbnail, title, price }) => (
+        <Grid columns={1} gap={13} title="Oferta">
+          {items3 &&
+            items3.map(
+              ({
+                id,
+                thumbnail,
+                title,
+                price,
+                shipping,
+                installments,
+                discounts,
+              }) => (
                 <CardProduct
                   key={id}
                   src={thumbnail}
                   title={title}
                   price={price}
+                  shipping={shipping}
+                  installments={installments}
+                  discounts={discounts}
                 />
-              ))}
-        </Grid> */}
-        <Grid columns={6} gap={13} title="Más vendidos en la semana">
+              )
+            )}
+        </Grid>
+        <Grid columns={4} gap={13} title="Más vendidos en la semana">
           {items &&
-            items
-              .slice(0, 6)
-              .map(
-                ({
-                  id,
-                  thumbnail,
-                  title,
-                  price,
-                  shipping,
-                  installments,
-                  discounts,
-                }) => (
-                  <CardProduct
-                    key={id}
-                    src={thumbnail}
-                    title={title}
-                    price={price}
-                    shipping={shipping}
-                    installments={installments}
-                    discounts={discounts}
-                  />
-                )
-              )}
+            items.map(
+              ({
+                id,
+                thumbnail,
+                title,
+                price,
+                shipping,
+                installments,
+                discounts,
+              }) => (
+                <CardProduct
+                  key={id}
+                  src={thumbnail}
+                  title={title}
+                  price={price}
+                  shipping={shipping}
+                  installments={installments}
+                  discounts={discounts}
+                />
+              )
+            )}
         </Grid>
       </FilteredRow>
     </BlockHomeStyled>
