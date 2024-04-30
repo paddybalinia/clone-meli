@@ -6,6 +6,10 @@ import styled from "styled-components";
 import useDataProducts from "../../hooks/useDataProducts";
 import { useGetUrl } from "../../hooks/useGetUrl";
 
+import DataTermo from "../../mocks/ResultTermos.json";
+import DataOferta from "../../mocks/ResultOferta.json";
+import DataApple from "../../mocks/ResultApple.json";
+
 const BlockHomeStyled = styled.div`
   display: flex;
   flex-direction: column;
@@ -22,28 +26,16 @@ export default function BlockHome() {
     })
   );
 
-  const termoProducts = useDataProducts(
-    useGetUrl({
-      API: "https://api.mercadolibre.com/sites/MLA/search?q=:",
-      SEARCH: "termo",
-      LIMIT: "6",
-    })
-  );
-
-  const ofertaProducts = useDataProducts(
-    useGetUrl({
-      API: "https://api.mercadolibre.com/sites/MLA/search?q=:",
-      SEARCH: "apple",
-      LIMIT: "1",
-    })
-  );
+  const ListTermos = DataTermo.results;
+  const ListOferta = DataOferta.results;
+  const ListApple = DataApple.results;
 
   return (
     <BlockHomeStyled>
       <FilteredRow>
         <Grid columns={6} gap={13} title="Más vendidos en Termos">
-          {termoProducts.data &&
-            termoProducts.data.map((product) => (
+          {ListTermos &&
+            ListTermos.map((product) => (
               <CardProduct key={product.id} {...product} />
             ))}
         </Grid>
@@ -51,14 +43,14 @@ export default function BlockHome() {
 
       <FilteredRow gap="20">
         <Grid columns={1} gap={13} title="Oferta">
-          {ofertaProducts.data &&
-            ofertaProducts.data.map((product) => (
+          {ListOferta &&
+            ListOferta.map((product) => (
               <CardProduct key={product.id} {...product} />
             ))}
         </Grid>
         <Grid columns={4} gap={13} title="Más vendidos en Apple">
-          {appleProducts.data &&
-            appleProducts.data.map((product) => (
+          {ListApple &&
+            ListApple.map((product) => (
               <CardProduct key={product.id} {...product} />
             ))}
         </Grid>
