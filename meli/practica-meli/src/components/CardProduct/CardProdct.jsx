@@ -16,7 +16,7 @@ import {
 
 export default function CardProduct({
   title,
-  src,
+  thumbnail,
   price,
   shipping,
   installments,
@@ -31,7 +31,7 @@ export default function CardProduct({
         <FigureStyle>
           <a href="#" title="title" target="_blank" rel="noopener noreferrer">
             <Image
-              src={src}
+              src={thumbnail}
               title={"title"}
               alt={"title"}
               width={300}
@@ -79,7 +79,7 @@ export default function CardProduct({
 
 CardProduct.propTypes = {
   title: PropTypes.string,
-  src: PropTypes.string,
+  thumbnail: PropTypes.string,
   price: PropTypes.number,
   shipping: PropTypes.shape({
     free_shipping: PropTypes.bool,

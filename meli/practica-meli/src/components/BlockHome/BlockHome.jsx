@@ -14,21 +14,23 @@ const BlockHomeStyled = styled.div`
 `;
 
 export default function BlockHome() {
-  const { data: items } = useDataProducts(
+  const appleProducts = useDataProducts(
     useGetUrl({
       API: "https://api.mercadolibre.com/sites/MLA/search?q=:",
       SEARCH: "apple",
       LIMIT: "4",
     })
   );
-  const { data: items2 } = useDataProducts(
+
+  const termoProducts = useDataProducts(
     useGetUrl({
       API: "https://api.mercadolibre.com/sites/MLA/search?q=:",
-      SEARCH: "oferta",
+      SEARCH: "termo",
       LIMIT: "6",
     })
   );
-  const { data: items3 } = useDataProducts(
+
+  const ofertaProducts = useDataProducts(
     useGetUrl({
       API: "https://api.mercadolibre.com/sites/MLA/search?q=:",
       SEARCH: "apple",
@@ -39,67 +41,26 @@ export default function BlockHome() {
   return (
     <BlockHomeStyled>
       <FilteredRow>
-        <Grid columns={6} gap={13} title="Más vendidos en la semana">
-          {items2 &&
-            items2.map(({ id, thumbnail, title, price }) => (
-              <CardProduct
-                key={id}
-                src={thumbnail}
-                title={title}
-                price={price}
-              />
+        <Grid columns={6} gap={13} title="Más vendidos en Termos">
+          {termoProducts.data &&
+            termoProducts.data.map((product) => (
+              <CardProduct key={product.id} {...product} />
             ))}
         </Grid>
       </FilteredRow>
 
       <FilteredRow gap="20">
         <Grid columns={1} gap={13} title="Oferta">
-          {items3 &&
-            items3.map(
-              ({
-                id,
-                thumbnail,
-                title,
-                price,
-                shipping,
-                installments,
-                discounts,
-              }) => (
-                <CardProduct
-                  key={id}
-                  src={thumbnail}
-                  title={title}
-                  price={price}
-                  shipping={shipping}
-                  installments={installments}
-                  discounts={discounts}
-                />
-              )
-            )}
+          {ofertaProducts.data &&
+            ofertaProducts.data.map((product) => (
+              <CardProduct key={product.id} {...product} />
+            ))}
         </Grid>
-        <Grid columns={4} gap={13} title="Más vendidos en la semana">
-          {items &&
-            items.map(
-              ({
-                id,
-                thumbnail,
-                title,
-                price,
-                shipping,
-                installments,
-                discounts,
-              }) => (
-                <CardProduct
-                  key={id}
-                  src={thumbnail}
-                  title={title}
-                  price={price}
-                  shipping={shipping}
-                  installments={installments}
-                  discounts={discounts}
-                />
-              )
-            )}
+        <Grid columns={4} gap={13} title="Más vendidos en Apple">
+          {appleProducts.data &&
+            appleProducts.data.map((product) => (
+              <CardProduct key={product.id} {...product} />
+            ))}
         </Grid>
       </FilteredRow>
     </BlockHomeStyled>
