@@ -12,6 +12,10 @@ export default function Search() {
       flexDirection: "column",
       width: "100%",
     },
+    item: {
+      display: "flex",
+      minWidth: "1160px",
+    },
   };
   return (
     <>
@@ -20,7 +24,7 @@ export default function Search() {
           <h3>Resultado de busqueda {busqueda.length}</h3>
           {hasResult ? (
             busqueda.map((item) => (
-              <div key={item.id}>
+              <div key={item.id} style={styles.item}>
                 <img
                   src={item.thumbnail}
                   width="300"

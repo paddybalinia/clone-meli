@@ -7,13 +7,14 @@ import Home from "./layout/Home.jsx";
 import Search from "./layout/Seach.jsx";
 
 function App() {
+  const getUrl = window.location.pathname;
+
   return (
     <>
       <GlobalStyle />
       <Header />
 
-      <Home />
-      {/* <Search /> */}
+      {getUrl == "/" ? <Home /> : <Search />}
     </>
   );
 }
