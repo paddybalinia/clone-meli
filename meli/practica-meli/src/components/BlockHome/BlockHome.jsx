@@ -9,6 +9,7 @@ import { useGetUrl } from "../../hooks/useGetUrl";
 import DataTermo from "../../mocks/ResultTermos.json";
 import DataOferta from "../../mocks/ResultOferta.json";
 import DataApple from "../../mocks/ResultApple.json";
+import { useFetchData } from "../../services/fetchData";
 
 const BlockHomeStyled = styled.div`
   display: flex;
@@ -18,13 +19,8 @@ const BlockHomeStyled = styled.div`
 `;
 
 export default function BlockHome() {
-  const appleProducts = useDataProducts(
-    useGetUrl({
-      API: "https://api.mercadolibre.com/sites/MLA/search?q=:",
-      SEARCH: "apple",
-      LIMIT: "4",
-    })
-  );
+  const { data: data1 } = useFetchData("search?q=termos&limit=2");
+  const { data: data2 } = useFetchData("search?q=apple&limit=2");
 
   const ListTermos = DataTermo.results;
   const ListOferta = DataOferta.results;
@@ -32,6 +28,13 @@ export default function BlockHome() {
 
   return (
     <BlockHomeStyled>
+      {data1 &&
+        data1.results &&
+        data1.results.map((item) => <li key={item.id}>{item.title}</li>)}
+
+      {data2 &&
+        data2.results &&
+        data2.results.map((item) => <li key={item.id}>{item.title}</li>)}
       <FilteredRow>
         <Grid columns={6} gap={13} title="Más vendidos en Termos">
           {ListTermos &&
