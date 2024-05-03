@@ -8,15 +8,22 @@ import GlobalStyle from "./GlobalStyles.jsx";
 import Home from "./layout/Home.jsx";
 import Search from "./layout/Seach.jsx";
 
-function App() {
-  const getUrl = window.location.pathname;
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { SingleProduct } from "./layout/SingleProduct.jsx";
 
+function App() {
   return (
     <>
       <GlobalStyle />
       <Header />
 
-      {getUrl == "/" ? <Home /> : <Search />}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/items" element={<Search />} />
+          <Route path="/items/:id" element={<SingleProduct />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
