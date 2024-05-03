@@ -19,14 +19,17 @@ import {
 } from "./HeaderStyle";
 
 import FilteredRow from "../Row/FilteredRow";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <>
       <HeaderStyle>
         <FilteredRow flexDirection="row" gap="70" justifyContent="flex-start">
-          <IconLogoStyle width={45} height={45}></IconLogoStyle>
-          <IconLogoDesktopStyle width={158} height={46} />
+          <Link to="/" title="Ir a la home" rel="noopener noreferrer">
+            <IconLogoStyle width={45} height={45}></IconLogoStyle>
+            <IconLogoDesktopStyle width={158} height={46} />
+          </Link>
 
           <FormSeach>
             <StyledInput

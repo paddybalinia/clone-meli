@@ -15,9 +15,9 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <Header />
 
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/items" element={<Search />} />
