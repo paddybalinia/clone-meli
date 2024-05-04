@@ -15,5 +15,9 @@ const FormStyle = styled.form`
   }
 `;
 export default function FormSeach({ children }) {
-  return <FormStyle action="/items">{children}</FormStyle>;
+  const onHandleSubmit = (event) => {
+    event.preventDefault();
+  };
+
+  return <FormStyle onSubmit={onHandleSubmit}>{children}</FormStyle>;
 }
