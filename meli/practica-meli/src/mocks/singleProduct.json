@@ -1,0 +1,420 @@
+{
+  "id": "MLA1269105647",
+  "site_id": "MLA",
+  "title": "Termo Media Manija Uruguayo 1 Litro Acero Inoxidable Cosmos Color Plateado",
+  "seller_id": 78170087,
+  "category_id": "MLA47769",
+  "official_store_id": null,
+  "price": 11500,
+  "base_price": 11500,
+  "original_price": null,
+  "currency_id": "ARS",
+  "initial_quantity": 224,
+  "sale_terms": [
+    {
+      "id": "WARRANTY_TYPE",
+      "name": "Tipo de garantía",
+      "value_id": "2230280",
+      "value_name": "Garantía del vendedor",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "2230280",
+          "name": "Garantía del vendedor",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "WARRANTY_TIME",
+      "name": "Tiempo de garantía",
+      "value_id": null,
+      "value_name": "1 meses",
+      "value_struct": {
+        "number": 1,
+        "unit": "meses"
+      },
+      "values": [
+        {
+          "id": null,
+          "name": "1 meses",
+          "struct": {
+            "number": 1,
+            "unit": "meses"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    }
+  ],
+  "buying_mode": "buy_it_now",
+  "listing_type_id": "gold_special",
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-1269105647-termo-media-manija-uruguayo-1-litro-acero-inoxidable-cosmos-color-plateado-_JM",
+  "thumbnail_id": "930213-MLU75167662321_032024",
+  "thumbnail": "http://http2.mlstatic.com/D_930213-MLU75167662321_032024-I.jpg",
+  "pictures": [
+    {
+      "id": "930213-MLU75167662321_032024",
+      "url": "http://http2.mlstatic.com/D_930213-MLU75167662321_032024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_930213-MLU75167662321_032024-O.jpg",
+      "size": "415x500",
+      "max_size": "996x1198",
+      "quality": ""
+    },
+    {
+      "id": "618155-MLU74795088438_032024",
+      "url": "http://http2.mlstatic.com/D_618155-MLU74795088438_032024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_618155-MLU74795088438_032024-O.jpg",
+      "size": "400x500",
+      "max_size": "400x500",
+      "quality": ""
+    }
+  ],
+  "video_id": null,
+  "descriptions": [],
+  "accepts_mercadopago": true,
+  "non_mercado_pago_payment_methods": [],
+  "shipping": {
+    "mode": "me2",
+    "methods": [],
+    "tags": [],
+    "dimensions": null,
+    "local_pick_up": false,
+    "free_shipping": false,
+    "logistic_type": "drop_off",
+    "store_pick_up": false
+  },
+  "international_delivery_mode": "none",
+  "seller_address": {
+    "city": {
+      "name": "salta capital"
+    },
+    "state": {
+      "id": "AR-A",
+      "name": "Salta"
+    },
+    "country": {
+      "id": "AR",
+      "name": "Argentina"
+    },
+    "search_location": {
+      "neighborhood": {
+        "id": "TUxBQk9UUjM1MTRa",
+        "name": "Otros Barrios"
+      },
+      "city": {
+        "id": "TUxBQ0NBUGVlMjc3",
+        "name": "Salta"
+      },
+      "state": {
+        "id": "TUxBUFNBTGFjMTJi",
+        "name": "Salta"
+      }
+    },
+    "id": 165178533
+  },
+  "seller_contact": null,
+  "location": {},
+  "coverage_areas": [],
+  "attributes": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "value_id": "973757",
+      "value_name": "Cosmos",
+      "values": [
+        {
+          "id": "973757",
+          "name": "Cosmos",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "COLOR",
+      "name": "Color",
+      "value_id": "52053",
+      "value_name": "Plateado",
+      "values": [
+        {
+          "id": "52053",
+          "name": "Plateado",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "EXTERIOR_MATERIALS",
+      "name": "Materiales del exterior",
+      "value_id": "1119364",
+      "value_name": "Acero inoxidable",
+      "values": [
+        {
+          "id": "1119364",
+          "name": "Acero inoxidable",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "value_id": null,
+      "value_name": "7793015112709",
+      "values": [
+        {
+          "id": null,
+          "name": "7793015112709",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "INTERIOR_MATERIAL",
+      "name": "Material del interior",
+      "value_id": "1119356",
+      "value_name": "Acero inoxidable",
+      "values": [
+        {
+          "id": "1119356",
+          "name": "Acero inoxidable",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "ITEM_CONDITION",
+      "name": "Condición del ítem",
+      "value_id": "2230284",
+      "value_name": "Nuevo",
+      "values": [
+        {
+          "id": "2230284",
+          "name": "Nuevo",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "LID_OPENING_SYSTEM",
+      "name": "Sistema de apertura de tapa",
+      "value_id": "3423639",
+      "value_name": "Pico cebador",
+      "values": [
+        {
+          "id": "3423639",
+          "name": "Pico cebador",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "LINE",
+      "name": "Línea",
+      "value_id": "36767465",
+      "value_name": "BigStar",
+      "values": [
+        {
+          "id": "36767465",
+          "name": "BigStar",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "MAIN_COLOR",
+      "name": "Color principal",
+      "value_id": "2450303",
+      "value_name": "Plateado",
+      "values": [
+        {
+          "id": "2450303",
+          "name": "Plateado",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "value_id": "13763310",
+      "value_name": "Media manija",
+      "values": [
+        {
+          "id": "13763310",
+          "name": "Media manija",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "PATTERN_NAME",
+      "name": "Nombre del diseño",
+      "value_id": "13410497",
+      "value_name": "liso",
+      "values": [
+        {
+          "id": "13410497",
+          "name": "liso",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "THERMO_CAPACITY",
+      "name": "Capacidad del termo",
+      "value_id": "3277853",
+      "value_name": "1 L",
+      "values": [
+        {
+          "id": "3277853",
+          "name": "1 L",
+          "struct": {
+            "number": 1,
+            "unit": "L"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "THERMO_COLD_DRINK_TEMPERATURE_CONSERVATION_TIME",
+      "name": "Tiempo de conservación de la bebida fría",
+      "value_id": "3462531",
+      "value_name": "12 h",
+      "values": [
+        {
+          "id": "3462531",
+          "name": "12 h",
+          "struct": {
+            "number": 12,
+            "unit": "h"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "THERMO_HOT_DRINK_TEMPERATURE_CONSERVATION_TIME",
+      "name": "Tiempo de conservación de la bebida caliente",
+      "value_id": "13763343",
+      "value_name": "24 días",
+      "values": [
+        {
+          "id": "13763343",
+          "name": "24 días",
+          "struct": {
+            "number": 24,
+            "unit": "días"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "WITH_DOUBLE_WALL_INSULATION",
+      "name": "Con pared doble de aislamiento",
+      "value_id": "242085",
+      "value_name": "Sí",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sí",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "WITH_HANDLE",
+      "name": "Con manija",
+      "value_id": "242085",
+      "value_name": "Sí",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sí",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "WITH_LID",
+      "name": "Con tapa",
+      "value_id": "242085",
+      "value_name": "Sí",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sí",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "WITH_LID_SUITABLE_FOR_USE_AS_A_MUG",
+      "name": "Con tapa apta para usarse como taza",
+      "value_id": "242085",
+      "value_name": "Sí",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sí",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "WITH_MULTIDIRECTIONAL_PEAK",
+      "name": "Con pico multidireccional",
+      "value_id": "242085",
+      "value_name": "Sí",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sí",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    }
+  ],
+  "listing_source": "",
+  "variations": [],
+  "status": "active",
+  "sub_status": [],
+  "tags": [
+    "extended_warranty_eligible",
+    "certified_quality_thumbnail",
+    "good_quality_picture",
+    "good_quality_thumbnail",
+    "immediate_payment",
+    "cart_eligible"
+  ],
+  "warranty": "Garantía del vendedor: 1 meses",
+  "catalog_product_id": "MLA19920659",
+  "domain_id": "MLA-THERMOSES",
+  "parent_item_id": null,
+  "deal_ids": [],
+  "automatic_relist": false,
+  "date_created": "2022-12-04T03:31:32.000Z",
+  "last_updated": "2024-05-04T03:34:36.000Z",
+  "health": null,
+  "catalog_listing": true
+}

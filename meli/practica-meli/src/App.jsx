@@ -9,7 +9,8 @@ import Home from "./layout/Home.jsx";
 import Search from "./layout/Seach.jsx";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { SingleProduct } from "./layout/SingleProduct.jsx";
+
+import { Product } from "./layout/Product.jsx";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/items" element={<Search />} />
-          <Route path="/items/:id" element={<SingleProduct />} />
+          <Route path="/items/:id" element={<Product />} />
         </Routes>
       </BrowserRouter>
     </>
