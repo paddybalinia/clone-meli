@@ -5,7 +5,7 @@ import IconLogoDesktop from "../Icons/LogoDesktop";
 // Define un componente de estilo usando styled-components
 export const HeaderStyle = styled.header`
   background-color: ${(props) => props.theme.colors.colorPrimary};
-  font-family: "ProximaNova", Arial, Helvetica, sans-serif;
+  font-family: ${(props) => props.theme.fonts.primary};
   display: flex;
   flex-direction: column;
   padding: 10px 0;

@@ -1,6 +1,17 @@
 //todo
 import Data from "../../mocks/singleProduct.json";
 import DataInfo from "../../mocks/singleProductDesc.json";
+import {
+  ContentStyle,
+  ProductStyle,
+  ProductLabel,
+  ProductTitle,
+  ProductButton,
+  ProductInfo,
+  ProductDetailsBox,
+  ProductDetailsTitle,
+  ProductDetailsText,
+} from "./SingleProductStyle";
 
 export function SingleProduct() {
   const { title, pictures, condition } = Data;
@@ -9,24 +20,26 @@ export function SingleProduct() {
   const conditionText = condition == "new" ? "Nuevo" : "Usado";
 
   return (
-    <div>
-      <div>
+    <ContentStyle>
+      <ProductStyle>
         <div>
           {pictures && pictures[0] && <img src={pictures[0].url} alt={title} />}
         </div>
-        <div>
-          <span>{conditionText}</span>
-          <h2>{title}</h2>
-          <button type="button">Comprar</button>
-        </div>
-      </div>
+        <ProductInfo>
+          <ProductLabel>{conditionText}</ProductLabel>
+          <ProductTitle>{title}</ProductTitle>
+          <ProductButton type="button" name="Comprar" aria-label="Comprar">
+            Comprar
+          </ProductButton>
+        </ProductInfo>
+      </ProductStyle>
 
       {plain_text && (
-        <div>
-          <h3>Detalle del producto</h3>
-          {plain_text}
-        </div>
+        <ProductDetailsBox>
+          <ProductDetailsTitle>Detalle del producto</ProductDetailsTitle>
+          <ProductDetailsText>{plain_text}</ProductDetailsText>
+        </ProductDetailsBox>
       )}
-    </div>
+    </ContentStyle>
   );
 }
