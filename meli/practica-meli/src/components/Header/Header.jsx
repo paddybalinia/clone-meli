@@ -5,8 +5,6 @@ import IconCart from "../Icons/Cart";
 
 import {
   HeaderStyle,
-  StyledInput,
-  StyledButton,
   BoxLocation,
   TextLocation,
   NavPrimary,
@@ -31,16 +29,7 @@ export default function Header() {
             <IconLogoDesktopStyle width={158} height={46} />
           </Link>
 
-          <FormSeach>
-            <StyledInput
-              type="text"
-              name="search"
-              placeholder="Buscar productos, marcas y más..."
-            ></StyledInput>
-            <StyledButton type="submit">
-              <IconSearch width={17} height={18} fill="#707070"></IconSearch>
-            </StyledButton>
-          </FormSeach>
+          <FormSeach></FormSeach>
         </FilteredRow>
         <FilteredRow justifyContent="space-between">
           <BoxLocation>

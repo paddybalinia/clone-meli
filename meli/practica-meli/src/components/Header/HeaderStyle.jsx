@@ -17,47 +17,6 @@ export const HeaderStyle = styled.header`
   }
 `;
 
-// Estilos para el elemento hijo
-export const StyledInput = styled.input`
-  border: 0;
-  background: transparent;
-  font-family: ${(props) => props.theme.fonts.primary};
-  color: ${(props) => props.theme.colors.colorText300};
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  padding: 10px 60px 10px 15px;
-  width: 100%;
-
-  &::placeholder {
-    color: ${(props) => props.theme.colors.colorText300};
-  }
-  &:focus {
-    outline: none;
-    box-shadow: none;
-  }
-`;
-
-export const StyledButton = styled.button`
-  border: 0;
-  background: transparent;
-  cursor: pointer;
-  color: #707070;
-  height: 40px;
-  padding: 0 14px 0 13px;
-  position: relative;
-
-  &:before {
-    content: "";
-    display: block;
-    height: 26px;
-    border-left: 1px solid #e6e6e6;
-    position: absolute;
-    top: 6.5px;
-    left: 0;
-  }
-`;
-
 export const RowStyle = styled.div`
   max-width: 1220px;
   margin: 0 auto;
