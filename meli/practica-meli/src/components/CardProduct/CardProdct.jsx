@@ -30,7 +30,7 @@ export default function CardProduct({
     <>
       <ItemProduct>
         {free_shipping}
-        {id}
+
         <FigureStyle>
           <Link to={`/items/${id}`} title={title} rel="noopener noreferrer">
             <Image
