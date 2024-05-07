@@ -1,6 +1,10 @@
 //todo
-import Data from "../../mocks/singleProduct.json";
-import DataInfo from "../../mocks/singleProductDesc.json";
+import { useParams } from "react-router-dom";
+import { useFetchData } from "../../services/fetchData";
+
+// import Data from "../../mocks/singleProduct.json";
+// import DataInfo from "../../mocks/singleProductDesc.json";
+
 import {
   ContentStyle,
   ProductStyle,
@@ -14,30 +18,38 @@ import {
 } from "./SingleProductStyle";
 
 export function SingleProduct() {
-  const { title, pictures, condition } = Data;
-  const { plain_text } = DataInfo;
+  let params = useParams();
 
-  const conditionText = condition == "new" ? "Nuevo" : "Usado";
+  const { data: data } = useFetchData(`items/${params.id}`);
+  const { data: data2 } = useFetchData(`items/${params.id}/description`);
+
+  // const { title, pictures, condition } = Data;
+  // const { plain_text } = DataInfo;
+
+  const conditionText = data?.condition == "new" ? "Nuevo" : "Usado";
 
   return (
     <ContentStyle>
-      <ProductStyle>
-        <div>
-          {pictures && pictures[0] && <img src={pictures[0].url} alt={title} />}
-        </div>
-        <ProductInfo>
-          <ProductLabel>{conditionText}</ProductLabel>
-          <ProductTitle>{title}</ProductTitle>
-          <ProductButton type="button" name="Comprar" aria-label="Comprar">
-            Comprar
-          </ProductButton>
-        </ProductInfo>
-      </ProductStyle>
-
-      {plain_text && (
+      {data && (
+        <ProductStyle>
+          <div>
+            {data.pictures && data.pictures[0] && (
+              <img src={data.pictures[0].url} alt={data.title} />
+            )}
+          </div>
+          <ProductInfo>
+            <ProductLabel>{conditionText}</ProductLabel>
+            <ProductTitle>{data.title}</ProductTitle>
+            <ProductButton type="button" name="Comprar" aria-label="Comprar">
+              Comprar
+            </ProductButton>
+          </ProductInfo>
+        </ProductStyle>
+      )}
+      {data2 && (
         <ProductDetailsBox>
           <ProductDetailsTitle>Detalle del producto</ProductDetailsTitle>
-          <ProductDetailsText>{plain_text}</ProductDetailsText>
+          <ProductDetailsText>{data2.plain_text}</ProductDetailsText>
         </ProductDetailsBox>
       )}
     </ContentStyle>

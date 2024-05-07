@@ -1,7 +1,10 @@
 // apiService.js
 import { useState, useEffect } from "react";
 
-const API_URL = "https://api.mercadolibre.com/sites/MLA/";
+const API_URL = "https://api.mercadolibre.com/";
+//https://api.mercadolibre.com/sites/MLA/search?q=:query
+//https://api.mercadolibre.com/items/:id
+//https://api.mercadolibre.com/items/:id%E2%80%8B/description
 
 export function useFetchData(endpoint) {
   const [data, setData] = useState(null);

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Grid from "../components/Grid/GridContainer";
 import FilteredRow from "../components/Row/FilteredRow";
 import respondeSeach from "../mocks/seachResult.json";
@@ -80,7 +80,7 @@ export default function Search() {
                   <StyledItem key={id}>
                     <FigureStyle>
                       <Link
-                        to={`/items/:${id}`}
+                        to={`/items/${id}`}
                         title={title}
                         rel="noopener noreferrer"
                       >
@@ -97,7 +97,7 @@ export default function Search() {
                     <ItemData>
                       <ItemTitle>
                         <Link
-                          to={`/items/:${id}`}
+                          to={`/items/${id}`}
                           title={title}
                           rel="noopener noreferrer"
                         >
@@ -107,7 +107,7 @@ export default function Search() {
 
                       <ItemPrice>
                         <Link
-                          to={`/items/:${id}`}
+                          to={`/items/${id}`}
                           title={title}
                           rel="noopener noreferrer"
                         >
@@ -117,7 +117,7 @@ export default function Search() {
 
                       <ItemInstallments>
                         <Link
-                          to={`/items/:${id}`}
+                          to={`/items/${id}`}
                           title={title}
                           rel="noopener noreferrer"
                         >
