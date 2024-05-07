@@ -1,0 +1,1506 @@
+{
+  "site_id": "MLA",
+  "country_default_time_zone": "GMT-03:00",
+  "query": ":macbook?",
+  "paging": {
+    "total": 2007,
+    "primary_results": 1000,
+    "offset": 0,
+    "limit": 1
+  },
+  "results": [
+    {
+      "id": "MLA1272821567",
+      "title": "Macbook Air M2 2022 Midnight 13.6 , Apple M2 8gb De Ram 256gb Ssd, Apple M2 10-core Gpu 2560x1664px Macos - Distribuidor Autorizado",
+      "condition": "new",
+      "thumbnail_id": "708839-MLA51356236557_082022",
+      "catalog_product_id": "MLA1019563442",
+      "listing_type_id": "gold_pro",
+      "permalink": "https://www.mercadolibre.com.ar/macbook-air-m2-2022-midnight-136-apple-m2-8gb-de-ram-256gb-ssd-apple-m2-10-core-gpu-2560x1664px-macos-distribuidor-autorizado/p/MLA1019563442",
+      "buying_mode": "buy_it_now",
+      "site_id": "MLA",
+      "category_id": "MLA1652",
+      "domain_id": "MLA-NOTEBOOKS",
+      "thumbnail": "http://http2.mlstatic.com/D_708839-MLA51356236557_082022-I.jpg",
+      "currency_id": "ARS",
+      "order_backend": 1,
+      "price": 2474999.45,
+      "original_price": 4499999,
+      "sale_price": null,
+      "available_quantity": 1,
+      "official_store_id": 2549,
+      "official_store_name": "Apple",
+      "use_thumbnail_id": true,
+      "accepts_mercadopago": true,
+      "shipping": {
+        "store_pick_up": false,
+        "free_shipping": true,
+        "logistic_type": "cross_docking",
+        "mode": "me2",
+        "tags": ["self_service_out", "mandatory_free_shipping"],
+        "benefits": null,
+        "promise": null
+      },
+      "stop_time": "2042-11-30T04:00:00.000Z",
+      "seller": {
+        "id": 195832229,
+        "nickname": "MACSTATION OFICIAL"
+      },
+      "attributes": [
+        {
+          "id": "BRAND",
+          "name": "Marca",
+          "value_id": "9344",
+          "value_name": "Apple",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "9344",
+              "name": "Apple",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "3002109",
+          "value_name": "Midnight",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "3002109",
+              "name": "Midnight",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "DETAILED_MODEL",
+          "name": "Modelo detallado",
+          "value_id": "13076306",
+          "value_name": "MLY33LL/A",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "13076306",
+              "name": "MLY33LL/A",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "GTIN",
+          "name": "Código universal de producto",
+          "value_id": null,
+          "value_name": "194253083221",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "194253083221",
+              "struct": null,
+              "source": 2860837171021627
+            }
+          ],
+          "source": 2860837171021627,
+          "value_type": "string"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null,
+              "source": 2860837171021627
+            }
+          ],
+          "source": 2860837171021627,
+          "value_type": "list"
+        },
+        {
+          "id": "LINE",
+          "name": "Línea",
+          "value_id": "95565",
+          "value_name": "MacBook Air",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "95565",
+              "name": "MacBook Air",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "MAIN_COLOR",
+          "name": "Color principal",
+          "value_id": "2450293",
+          "value_name": "Azul",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2450293",
+              "name": "Azul",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "list"
+        },
+        {
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_id": "13076293",
+          "value_name": "M2 2022",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "13076293",
+              "name": "M2 2022",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "PROCESSOR_BRAND",
+          "name": "Marca del procesador",
+          "value_id": "9344",
+          "value_name": "Apple",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "9344",
+              "name": "Apple",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "list"
+        },
+        {
+          "id": "PROCESSOR_MODEL",
+          "name": "Modelo del procesador",
+          "value_id": "40110",
+          "value_name": "M2",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "40110",
+              "name": "M2",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "WEIGHT",
+          "name": "Peso",
+          "value_id": "8035978",
+          "value_name": "1.24 kg",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": {
+            "number": 1.24,
+            "unit": "kg"
+          },
+          "values": [
+            {
+              "id": "8035978",
+              "name": "1.24 kg",
+              "struct": {
+                "unit": "kg",
+                "number": 1.24
+              },
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "number_unit"
+        }
+      ],
+      "installments": {
+        "quantity": 6,
+        "amount": 412499.91,
+        "rate": 0,
+        "currency_id": "ARS"
+      },
+      "winner_item_id": null,
+      "catalog_listing": true,
+      "discounts": null,
+      "promotions": [],
+      "differential_pricing": {
+        "id": 33678187
+      },
+      "inventory_id": null
+    }
+  ],
+  "sort": {
+    "id": "relevance",
+    "name": "Más relevantes"
+  },
+  "available_sorts": [
+    {
+      "id": "price_asc",
+      "name": "Menor precio"
+    },
+    {
+      "id": "price_desc",
+      "name": "Mayor precio"
+    }
+  ],
+  "filters": [
+    {
+      "id": "category",
+      "name": "Categorías",
+      "type": "text",
+      "values": [
+        {
+          "id": "MLA1652",
+          "name": "Notebooks",
+          "path_from_root": [
+            {
+              "id": "MLA1648",
+              "name": "Computación"
+            },
+            {
+              "id": "MLA430687",
+              "name": "Notebooks y Accesorios"
+            },
+            {
+              "id": "MLA1652",
+              "name": "Notebooks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "STRING",
+      "values": [
+        {
+          "id": "9344",
+          "name": "Apple"
+        }
+      ]
+    }
+  ],
+  "available_filters": [
+    {
+      "id": "official_store",
+      "name": "Tiendas oficiales",
+      "type": "text",
+      "values": [
+        {
+          "id": "all",
+          "name": "Todas las tiendas oficiales",
+          "results": 27
+        },
+        {
+          "id": "2549",
+          "name": "Apple",
+          "results": 22
+        }
+      ]
+    },
+    {
+      "id": "discount",
+      "name": "Descuentos",
+      "type": "number",
+      "values": [
+        {
+          "id": "5-100",
+          "name": "Desde 5% OFF",
+          "results": 81
+        },
+        {
+          "id": "10-100",
+          "name": "Desde 10% OFF",
+          "results": 58
+        },
+        {
+          "id": "15-100",
+          "name": "Desde 15% OFF",
+          "results": 42
+        },
+        {
+          "id": "20-100",
+          "name": "Desde 20% OFF",
+          "results": 36
+        },
+        {
+          "id": "25-100",
+          "name": "Desde 25% OFF",
+          "results": 30
+        },
+        {
+          "id": "30-100",
+          "name": "Desde 30% OFF",
+          "results": 24
+        },
+        {
+          "id": "40-100",
+          "name": "Desde 40% OFF",
+          "results": 17
+        },
+        {
+          "id": "50-100",
+          "name": "Desde 50% OFF",
+          "results": 11
+        },
+        {
+          "id": "60-100",
+          "name": "Desde 60% OFF",
+          "results": 2
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "name": "Precio",
+      "type": "range",
+      "values": [
+        {
+          "id": "*-550000.0",
+          "name": "Hasta $ 550.000",
+          "results": 602
+        },
+        {
+          "id": "550000.0-1000000.0",
+          "name": "$550.000 a $1.000.000",
+          "results": 573
+        },
+        {
+          "id": "1000000.0-*",
+          "name": "Más de $1.000.000",
+          "results": 832
+        }
+      ]
+    },
+    {
+      "id": "accepts_mercadopago",
+      "name": "Filtro por MercadoPago",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Con MercadoPago",
+          "results": 2007
+        }
+      ]
+    },
+    {
+      "id": "installments",
+      "name": "Financiación",
+      "type": "text",
+      "values": [
+        {
+          "id": "yes",
+          "name": "En cuotas",
+          "results": 155
+        },
+        {
+          "id": "no_interest",
+          "name": "Sin interés",
+          "results": 205
+        }
+      ]
+    },
+    {
+      "id": "shipping",
+      "name": "Envío",
+      "type": "text",
+      "values": [
+        {
+          "id": "mercadoenvios",
+          "name": "Mercado Envíos",
+          "results": 2003
+        },
+        {
+          "id": "fulfillment",
+          "name": "Full",
+          "results": 4
+        }
+      ]
+    },
+    {
+      "id": "power_seller",
+      "name": "Filtro por calidad de vendedores",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Mejores vendedores",
+          "results": 226
+        }
+      ]
+    },
+    {
+      "id": "since",
+      "name": "Filtro por fecha de comienzo",
+      "type": "text",
+      "values": [
+        {
+          "id": "today",
+          "name": "Publicados hoy",
+          "results": 22
+        }
+      ]
+    },
+    {
+      "id": "until",
+      "name": "Filtro por fecha de finalización",
+      "type": "text",
+      "values": [
+        {
+          "id": "today",
+          "name": "Finalizan hoy",
+          "results": 7
+        }
+      ]
+    },
+    {
+      "id": "has_video",
+      "name": "Filtro por publicaciones con video",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Publicaciones con video",
+          "results": 63
+        }
+      ]
+    },
+    {
+      "id": "has_pictures",
+      "name": "Filtro por publicaciones con imágenes",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Con fotos",
+          "results": 2007
+        }
+      ]
+    },
+    {
+      "id": "all_payment_methods_discount",
+      "name": "Descuentos para todos los medios de pago",
+      "type": "number",
+      "values": [
+        {
+          "id": "10-100",
+          "name": "Desde 10% OFF",
+          "results": 11
+        },
+        {
+          "id": "25-100",
+          "name": "Desde 25% OFF",
+          "results": 1
+        }
+      ]
+    },
+    {
+      "id": "price_campaign_id",
+      "name": "Campaña",
+      "type": "number",
+      "values": [
+        {
+          "id": "MLA52903",
+          "name": "MLA52903",
+          "results": 18
+        },
+        {
+          "id": "P-MLA13949034",
+          "name": "P-MLA13949034",
+          "results": 4
+        },
+        {
+          "id": "MLA53545",
+          "name": "MLA53545",
+          "results": 2
+        }
+      ]
+    },
+    {
+      "id": "promotion_type",
+      "name": "Tipo de promoción",
+      "type": "text",
+      "values": [
+        {
+          "id": "deal_of_the_day",
+          "name": "Oferta del día",
+          "results": 2
+        }
+      ]
+    },
+    {
+      "id": "shipping_cost",
+      "name": "Costo de envío",
+      "type": "text",
+      "values": [
+        {
+          "id": "free",
+          "name": "Gratis",
+          "results": 1077
+        }
+      ]
+    },
+    {
+      "id": "state",
+      "name": "Ubicación",
+      "type": "text",
+      "values": [
+        {
+          "id": "TUxBUENBUGw3M2E1",
+          "name": "Capital Federal",
+          "results": 957
+        },
+        {
+          "id": "TUxBUEdSQWU4ZDkz",
+          "name": "Bs.As. G.B.A. Norte",
+          "results": 292
+        },
+        {
+          "id": "TUxBUEdSQXJlMDNm",
+          "name": "Bs.As. G.B.A. Sur",
+          "results": 155
+        },
+        {
+          "id": "TUxBUENPUmFkZGIw",
+          "name": "Córdoba",
+          "results": 117
+        },
+        {
+          "id": "TUxBUEdSQWVmNTVm",
+          "name": "Bs.As. G.B.A. Oeste",
+          "results": 91
+        },
+        {
+          "id": "TUxBUFpPTmFpbnRl",
+          "name": "Buenos Aires Interior",
+          "results": 84
+        },
+        {
+          "id": "TUxBUFNBTmU5Nzk2",
+          "name": "Santa Fe",
+          "results": 75
+        },
+        {
+          "id": "TUxBUE1FTmE5OWQ4",
+          "name": "Mendoza",
+          "results": 40
+        },
+        {
+          "id": "TUxBUENPU2ExMmFkMw",
+          "name": "Bs.As. Costa Atlántica",
+          "results": 18
+        },
+        {
+          "id": "TUxBUEVOVHMzNTdm",
+          "name": "Entre Ríos",
+          "results": 17
+        },
+        {
+          "id": "TUxBUENPUnM5MjI0",
+          "name": "Corrientes",
+          "results": 11
+        },
+        {
+          "id": "TUxBUE5FVW4xMzMzNQ",
+          "name": "Neuquén",
+          "results": 10
+        },
+        {
+          "id": "TUxBUENIQW8xMTNhOA",
+          "name": "Chaco",
+          "results": 10
+        },
+        {
+          "id": "TUxBUFLNT29iZmZm",
+          "name": "Río Negro",
+          "results": 8
+        },
+        {
+          "id": "TUxBUFNBTGFjMTJi",
+          "name": "Salta",
+          "results": 8
+        },
+        {
+          "id": "TUxBUE1JU3MzNjIx",
+          "name": "Misiones",
+          "results": 7
+        },
+        {
+          "id": "TUxBUFRVQ244NmM3",
+          "name": "Tucumán",
+          "results": 7
+        },
+        {
+          "id": "TUxBUFNBTm9lOTlk",
+          "name": "Santiago del Estero",
+          "results": 6
+        },
+        {
+          "id": "TUxBUEpVSnk3YmUz",
+          "name": "Jujuy",
+          "results": 4
+        },
+        {
+          "id": "TUxBUFNBTm5lYjU4",
+          "name": "San Juan",
+          "results": 4
+        },
+        {
+          "id": "TUxBUFNBTno3ZmY5",
+          "name": "Santa Cruz",
+          "results": 4
+        },
+        {
+          "id": "TUxBUENBVGFiY2Fm",
+          "name": "Catamarca",
+          "results": 3
+        },
+        {
+          "id": "TUxBUEZPUmE1OTk5",
+          "name": "Formosa",
+          "results": 2
+        },
+        {
+          "id": "TUxBUExBWmEyNzY0",
+          "name": "La Rioja",
+          "results": 2
+        },
+        {
+          "id": "TUxBUExBWmE1OWMy",
+          "name": "La Pampa",
+          "results": 1
+        },
+        {
+          "id": "TUxBUFNBTnM0ZTcz",
+          "name": "San Luis",
+          "results": 1
+        }
+      ]
+    },
+    {
+      "id": "CORES_NUMBER",
+      "name": "Cantidad de núcleos",
+      "type": "range",
+      "values": [
+        {
+          "id": "(*-4)",
+          "name": "4 núcleos o menos",
+          "results": 378
+        },
+        {
+          "id": "[4-8)",
+          "name": "4 a 7 núcleos",
+          "results": 218
+        },
+        {
+          "id": "[8-10)",
+          "name": "8 a 9 núcleos",
+          "results": 331
+        },
+        {
+          "id": "[10-*)",
+          "name": "10 núcleos o más",
+          "results": 144
+        }
+      ]
+    },
+    {
+      "id": "DISK_TYPE",
+      "name": "Tipo de disco",
+      "type": "STRING",
+      "values": [
+        {
+          "id": "20683227",
+          "name": "SSD",
+          "results": 973
+        },
+        {
+          "id": "20683228",
+          "name": "Híbrido",
+          "results": 454
+        },
+        {
+          "id": "20683226",
+          "name": "HDD",
+          "results": 201
+        }
+      ]
+    },
+    {
+      "id": "DISPLAY_SIZE",
+      "name": "Tamaño de la pantalla",
+      "type": "range"
+    },
+    {
+      "id": "GRAPHIC_CARD",
+      "name": "Tarjeta gráfica",
+      "type": "STRING",
+      "values": [
+        {
+          "id": "13682791",
+          "name": "Apple M2 10-Core GPU",
+          "results": 79
+        },
+        {
+          "id": "11956832",
+          "name": "Apple M1 8-Core GPU",
+          "results": 79
+        },
+        {
+          "id": "9956884",
+          "name": "Intel HD Graphics 6000",
+          "results": 61
+        },
+        {
+          "id": "9959647",
+          "name": "Apple GPU",
+          "results": 59
+        },
+        {
+          "id": "9956473",
+          "name": "Intel HD Graphics 4000",
+          "results": 36
+        },
+        {
+          "id": "13935763",
+          "name": "intel",
+          "results": 29
+        },
+        {
+          "id": "9956581",
+          "name": "Intel Iris Plus Graphics",
+          "results": 27
+        },
+        {
+          "id": "9956576",
+          "name": "Intel Iris Plus Graphics 640",
+          "results": 26
+        },
+        {
+          "id": "9956655",
+          "name": "Intel UHD Graphics 617",
+          "results": 20
+        },
+        {
+          "id": "9956635",
+          "name": "Intel Iris Plus Graphics 645",
+          "results": 20
+        },
+        {
+          "id": "9956867",
+          "name": "Intel HD Graphics 6100",
+          "results": 19
+        },
+        {
+          "id": "10260528",
+          "name": "AMD Radeon Pro 5300M",
+          "results": 18
+        },
+        {
+          "id": "9956656",
+          "name": "Intel Iris Plus Graphics 655",
+          "results": 15
+        },
+        {
+          "id": "13499102",
+          "name": "Apple M2 8-Core GPU",
+          "results": 14
+        },
+        {
+          "id": "13260125",
+          "name": "Integrada",
+          "results": 11
+        },
+        {
+          "id": "11808628",
+          "name": "Apple M1 Pro 16-Core GPU",
+          "results": 11
+        },
+        {
+          "id": "9959847",
+          "name": "AMD Radeon Pro 450",
+          "results": 10
+        },
+        {
+          "id": "9956403",
+          "name": "AMD Radeon Pro 560X",
+          "results": 10
+        },
+        {
+          "id": "9956804",
+          "name": "Intel Iris Graphics 540",
+          "results": 9
+        },
+        {
+          "id": "9956504",
+          "name": "Intel HD Graphics",
+          "results": 8
+        },
+        {
+          "id": "9956408",
+          "name": "Intel HD Graphics 3000",
+          "results": 8
+        },
+        {
+          "id": "9956647",
+          "name": "AMD Radeon Pro 5500M",
+          "results": 7
+        },
+        {
+          "id": "16355189",
+          "name": "Apple M2 Pro 19-Core GPU",
+          "results": 7
+        },
+        {
+          "id": "10472940",
+          "name": "Intel Iris Plus Graphics 650",
+          "results": 7
+        },
+        {
+          "id": "20132079",
+          "name": "Apple M2 Max 30-Core GPU",
+          "results": 6
+        },
+        {
+          "id": "13683408",
+          "name": "Intel Iris Graphics 6100",
+          "results": 6
+        },
+        {
+          "id": "9956529",
+          "name": "Intel UHD Graphics 630",
+          "results": 3
+        },
+        {
+          "id": "17497591",
+          "name": "Apple M2 Pro 16-Core GPU",
+          "results": 3
+        },
+        {
+          "id": "15633987",
+          "name": "Apple M1 Max 32-Core GPU",
+          "results": 3
+        },
+        {
+          "id": "9956642",
+          "name": "Intel HD Graphics 5300",
+          "results": 2
+        },
+        {
+          "id": "24964229",
+          "name": "Apple GPU 10 Core",
+          "results": 2
+        },
+        {
+          "id": "21995268",
+          "name": "M2 Pro",
+          "results": 2
+        },
+        {
+          "id": "16355191",
+          "name": "Apple M2 Max 38-Core GPU",
+          "results": 2
+        },
+        {
+          "id": "11986377",
+          "name": "Intel UHD",
+          "results": 2
+        },
+        {
+          "id": "9956874",
+          "name": "AMD Radeon",
+          "results": 1
+        },
+        {
+          "id": "9956813",
+          "name": "Intel HD Graphics 615",
+          "results": 1
+        },
+        {
+          "id": "9956580",
+          "name": "Intel HD Graphics 500",
+          "results": 1
+        },
+        {
+          "id": "24862040",
+          "name": "Intel Iris Graphics",
+          "results": 1
+        },
+        {
+          "id": "13751697",
+          "name": "Radeon",
+          "results": 1
+        },
+        {
+          "id": "12103140",
+          "name": "Intel Iris Graphics 550",
+          "results": 1
+        },
+        {
+          "id": "11651650",
+          "name": "Intel Graphics",
+          "results": 1
+        }
+      ]
+    },
+    {
+      "id": "HARD_DRIVE_DATA_STORAGE_CAPACITY",
+      "name": "Capacidad del disco rígido",
+      "type": "range",
+      "values": [
+        {
+          "id": "(*-256GB)",
+          "name": "Menos de 256 GB",
+          "results": 203
+        },
+        {
+          "id": "[256GB-512GB)",
+          "name": "256 a 511 GB",
+          "results": 223
+        },
+        {
+          "id": "[512GB-2TB)",
+          "name": "512 a 2 TB",
+          "results": 194
+        },
+        {
+          "id": "[2TB-*)",
+          "name": "2 TB o más",
+          "results": 60
+        }
+      ]
+    },
+    {
+      "id": "IS_2_IN_1",
+      "name": "Otras características",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Es 2 en 1",
+          "results": 32
+        }
+      ]
+    },
+    {
+      "id": "IS_GAMER",
+      "name": "Otras características",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Es gamer",
+          "results": 99
+        }
+      ]
+    },
+    {
+      "id": "IS_ULTRABOOK",
+      "name": "Otras características",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Es ultrabook",
+          "results": 207
+        }
+      ]
+    },
+    {
+      "id": "ITEM_CONDITION",
+      "name": "Condición",
+      "type": "STRING",
+      "values": [
+        {
+          "id": "2230581",
+          "name": "Usado",
+          "results": 1587
+        },
+        {
+          "id": "2230284",
+          "name": "Nuevo",
+          "results": 399
+        },
+        {
+          "id": "2230582",
+          "name": "Reacondicionado",
+          "results": 21
+        }
+      ]
+    },
+    {
+      "id": "LINE",
+      "name": "Línea",
+      "type": "STRING",
+      "values": [
+        {
+          "id": "95588",
+          "name": "MacBook Pro",
+          "results": 1048
+        },
+        {
+          "id": "95565",
+          "name": "MacBook Air",
+          "results": 694
+        },
+        {
+          "id": "41930",
+          "name": "MacBook",
+          "results": 115
+        },
+        {
+          "id": "26872",
+          "name": "Air",
+          "results": 7
+        },
+        {
+          "id": "8248106",
+          "name": "Laptop",
+          "results": 1
+        },
+        {
+          "id": "4287044",
+          "name": "Notebook",
+          "results": 1
+        },
+        {
+          "id": "20942680"
+        }
+      ]
+    },
+    {
+      "id": "MAIN_COLOR",
+      "name": "Color principal",
+      "type": "list"
+    },
+    {
+      "id": "OS_NAME",
+      "name": "Nombre del sistema operativo",
+      "type": "STRING"
+    },
+    {
+      "id": "PROCESSOR_BRAND",
+      "name": "Marca del procesador",
+      "type": "STRING",
+      "values": [
+        {
+          "id": "7855833",
+          "name": "Intel",
+          "results": 1105
+        },
+        {
+          "id": "9344",
+          "name": "Apple",
+          "results": 890
+        },
+        {
+          "id": "18034",
+          "name": "AMD",
+          "results": 7
+        },
+        {
+          "id": "3383461",
+          "name": "Qualcomm",
+          "results": 1
+        }
+      ]
+    },
+    {
+      "id": "PROCESSOR_LINE",
+      "name": "Línea del procesador",
+      "type": "STRING",
+      "values": [
+        {
+          "id": "7769178",
+          "name": "Core i5",
+          "results": 736
+        },
+        {
+          "id": "7769180",
+          "name": "Core i7",
+          "results": 286
+        },
+        {
+          "id": "13631021",
+          "name": "M2",
+          "results": 125
+        },
+        {
+          "id": "13768903",
+          "name": "M1",
+          "results": 111
+        },
+        {
+          "id": "7769179",
+          "name": "Core i3",
+          "results": 34
+        },
+        {
+          "id": "9863001",
+          "name": "Apple",
+          "results": 32
+        },
+        {
+          "id": "7769247",
+          "name": "Core i9",
+          "results": 32
+        },
+        {
+          "id": "42263",
+          "name": "Core 2 Duo",
+          "results": 28
+        },
+        {
+          "id": "18645109",
+          "name": "M2 Pro",
+          "results": 21
+        },
+        {
+          "id": "5538083",
+          "name": "Intel",
+          "results": 18
+        },
+        {
+          "id": "44273",
+          "name": "Celeron",
+          "results": 13
+        },
+        {
+          "id": "14311237",
+          "name": "I5",
+          "results": 12
+        },
+        {
+          "id": "14259491",
+          "name": "i7",
+          "results": 11
+        },
+        {
+          "id": "19567",
+          "name": "Core",
+          "results": 10
+        },
+        {
+          "id": "519",
+          "name": "M",
+          "results": 9
+        },
+        {
+          "id": "16105",
+          "name": "Pro",
+          "results": 7
+        },
+        {
+          "id": "17519301",
+          "name": "Apple M2 Pro",
+          "results": 6
+        },
+        {
+          "id": "19199758",
+          "name": "Ios",
+          "results": 5
+        },
+        {
+          "id": "44265",
+          "name": "Core Duo",
+          "results": 3
+        },
+        {
+          "id": "18734105",
+          "name": "mac",
+          "results": 3
+        },
+        {
+          "id": "18503737",
+          "name": "I9",
+          "results": 3
+        },
+        {
+          "id": "8631936",
+          "name": "0%",
+          "results": 2
+        },
+        {
+          "id": "8201964",
+          "name": "Core M3",
+          "results": 2
+        },
+        {
+          "id": "7878897",
+          "name": "Core M",
+          "results": 2
+        },
+        {
+          "id": "7855839",
+          "name": "Core i6",
+          "results": 2
+        },
+        {
+          "id": "7855837",
+          "name": "Core i4",
+          "results": 2
+        },
+        {
+          "id": "2679178",
+          "name": "Iris",
+          "results": 2
+        },
+        {
+          "id": "20132080",
+          "name": "Apple M2 Max",
+          "results": 2
+        },
+        {
+          "id": "18029888",
+          "name": ".",
+          "results": 2
+        },
+        {
+          "id": "15451264",
+          "name": "Intel Core i7",
+          "results": 2
+        },
+        {
+          "id": "16561738",
+          "name": "Intel Core",
+          "results": 1
+        },
+        {
+          "id": "15363318",
+          "name": "-",
+          "results": 1
+        },
+        {
+          "id": "15015836",
+          "name": "i3",
+          "results": 1
+        },
+        {
+          "id": "135857",
+          "name": "New",
+          "results": 1
+        },
+        {
+          "id": "11199954",
+          "name": "M5",
+          "results": 1
+        }
+      ]
+    },
+    {
+      "id": "RAM_MEMORY",
+      "name": "Memoria RAM",
+      "type": "range",
+      "values": [
+        {
+          "id": "(*-16GB)",
+          "name": "Menos de 16 GB",
+          "results": 1205
+        },
+        {
+          "id": "[16GB-32GB)",
+          "name": "16 a 31 GB",
+          "results": 445
+        },
+        {
+          "id": "[32GB-*)",
+          "name": "32 GB o más",
+          "results": 82
+        }
+      ]
+    },
+    {
+      "id": "SSD_DATA_STORAGE_CAPACITY",
+      "name": "Capacidad de disco SSD",
+      "type": "range",
+      "values": [
+        {
+          "id": "(*-64GB)",
+          "name": "Menos de 64 GB",
+          "results": 43
+        },
+        {
+          "id": "[64GB-500GB)",
+          "name": "64 a 499 GB",
+          "results": 818
+        },
+        {
+          "id": "[500GB-512GB)",
+          "name": "500 a 511 GB",
+          "results": 58
+        },
+        {
+          "id": "[512GB-*)",
+          "name": "512 GB o más",
+          "results": 151
+        }
+      ]
+    },
+    {
+      "id": "TOTAL_DISK_CAPACITY",
+      "name": "Capacidad total de disco",
+      "type": "range",
+      "values": [
+        {
+          "id": "(*-256GB)",
+          "name": "Menos de 256 GB",
+          "results": 281
+        },
+        {
+          "id": "[256GB-512GB)",
+          "name": "256 a 511 GB",
+          "results": 573
+        },
+        {
+          "id": "[512GB-1TB)",
+          "name": "512 a 1 TB",
+          "results": 427
+        },
+        {
+          "id": "[1TB-*)",
+          "name": "1 TB o más",
+          "results": 215
+        }
+      ]
+    },
+    {
+      "id": "WITH_BLUETOOTH",
+      "name": "Otras características",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Con Bluetooth",
+          "results": 650
+        }
+      ]
+    },
+    {
+      "id": "WITH_MICROPHONE",
+      "name": "Otras características",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Con micrófono",
+          "results": 634
+        }
+      ]
+    },
+    {
+      "id": "WITH_RETINA_DISPLAY",
+      "name": "Otras características",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Con pantalla retina",
+          "results": 715
+        }
+      ]
+    },
+    {
+      "id": "WITH_TOUCH_SCREEN",
+      "name": "Otras características",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Con pantalla táctil",
+          "results": 29
+        }
+      ]
+    },
+    {
+      "id": "WITH_USB",
+      "name": "Otras características",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Con USB",
+          "results": 670
+        }
+      ]
+    },
+    {
+      "id": "WITH_WI_FI",
+      "name": "Wi-Fi",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Con Wi-Fi",
+          "results": 667
+        }
+      ]
+    },
+    {
+      "id": "product",
+      "name": "Producto",
+      "type": "text"
+    }
+  ],
+  "pdp_tracking": {
+    "group": false,
+    "product_info": [
+      {
+        "id": "MLA1019563442",
+        "score": 1,
+        "status": "shown"
+      }
+    ]
+  }
+}

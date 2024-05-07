@@ -13,8 +13,10 @@ import {
   PriceOlder,
   ComponentPrice,
 } from "./CardProdctStyle";
+import { Link } from "react-router-dom";
 
 export default function CardProduct({
+  id,
   title,
   thumbnail,
   price,
@@ -28,20 +30,25 @@ export default function CardProduct({
     <>
       <ItemProduct>
         {free_shipping}
+
         <FigureStyle>
-          <a href="#" title="title" target="_blank" rel="noopener noreferrer">
+          <Link to={`/items/${id}`} title={title} rel="noopener noreferrer">
             <Image
               src={thumbnail}
-              title={"title"}
-              alt={"title"}
+              title={title}
+              alt={title}
               width={300}
               height={300}
             />
-          </a>
+          </Link>
         </FigureStyle>
 
         <ItemProductData>
-          <ItemProductTitle>{title}</ItemProductTitle>
+          <ItemProductTitle>
+            <Link to={`/items/${id}`} title={title} rel="noopener noreferrer">
+              {title}
+            </Link>
+          </ItemProductTitle>
 
           <ComponentPrice>
             {discounts && (

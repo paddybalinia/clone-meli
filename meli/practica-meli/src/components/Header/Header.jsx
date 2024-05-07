@@ -5,8 +5,6 @@ import IconCart from "../Icons/Cart";
 
 import {
   HeaderStyle,
-  StyledInput,
-  StyledButton,
   BoxLocation,
   TextLocation,
   NavPrimary,
@@ -19,25 +17,19 @@ import {
 } from "./HeaderStyle";
 
 import FilteredRow from "../Row/FilteredRow";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <>
       <HeaderStyle>
         <FilteredRow flexDirection="row" gap="70" justifyContent="flex-start">
-          <IconLogoStyle width={45} height={45}></IconLogoStyle>
-          <IconLogoDesktopStyle width={158} height={46} />
+          <Link to="/" title="Ir a la home" rel="noopener noreferrer">
+            <IconLogoStyle width={45} height={45}></IconLogoStyle>
+            <IconLogoDesktopStyle width={158} height={46} />
+          </Link>
 
-          <FormSeach>
-            <StyledInput
-              type="text"
-              name="search"
-              placeholder="Buscar productos, marcas y más..."
-            ></StyledInput>
-            <StyledButton type="submit">
-              <IconSearch width={17} height={18} fill="#707070"></IconSearch>
-            </StyledButton>
-          </FormSeach>
+          <FormSeach></FormSeach>
         </FilteredRow>
         <FilteredRow justifyContent="space-between">
           <BoxLocation>

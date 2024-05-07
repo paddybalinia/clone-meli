@@ -1,0 +1,2696 @@
+{
+  "site_id": "MLA",
+  "country_default_time_zone": "GMT-03:00",
+  "query": "apple",
+  "paging": {
+    "total": 63693,
+    "primary_results": 1000,
+    "offset": 0,
+    "limit": 4
+  },
+  "results": [
+    {
+      "id": "MLA1636442398",
+      "title": "Cargador Fast Apple Original iPhone 13 13 Pro Max Usb-c 20w Color Blanco - Distribuidor Autorizado",
+      "condition": "new",
+      "thumbnail_id": "620616-MLA49003338062_022022",
+      "catalog_product_id": "MLA1019866763",
+      "listing_type_id": "gold_special",
+      "permalink": "https://www.mercadolibre.com.ar/cargador-fast-apple-original-iphone-13-13-pro-max-usb-c-20w-color-blanco-distribuidor-autorizado/p/MLA1019866763",
+      "buying_mode": "buy_it_now",
+      "site_id": "MLA",
+      "category_id": "MLA429749",
+      "domain_id": "MLA-MOBILE_DEVICE_CHARGERS",
+      "thumbnail": "http://http2.mlstatic.com/D_620616-MLA49003338062_022022-I.jpg",
+      "currency_id": "ARS",
+      "order_backend": 1,
+      "price": 59339.31,
+      "original_price": 85999,
+      "sale_price": null,
+      "available_quantity": 1,
+      "official_store_id": 2549,
+      "official_store_name": "Apple",
+      "use_thumbnail_id": true,
+      "accepts_mercadopago": true,
+      "shipping": {
+        "store_pick_up": false,
+        "free_shipping": true,
+        "logistic_type": "cross_docking",
+        "mode": "me2",
+        "tags": ["self_service_in", "mandatory_free_shipping"],
+        "benefits": null,
+        "promise": null
+      },
+      "stop_time": "2044-01-14T04:00:00.000Z",
+      "seller": {
+        "id": 195832229,
+        "nickname": "MACSTATION OFICIAL"
+      },
+      "attributes": [
+        {
+          "id": "BRAND",
+          "name": " Marca del cargador",
+          "value_id": "9344",
+          "value_name": "Apple",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "9344",
+              "name": "Apple",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52055",
+          "value_name": "Blanco",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "52055",
+              "name": "Blanco",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "GTIN",
+          "name": "Código universal de producto",
+          "value_id": null,
+          "value_name": "194252156971",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "194252156971",
+              "struct": null,
+              "source": 2860837171021627
+            }
+          ],
+          "source": 2860837171021627,
+          "value_type": "string"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null,
+              "source": 2860837171021627
+            }
+          ],
+          "source": 2860837171021627,
+          "value_type": "list"
+        },
+        {
+          "id": "MAIN_COLOR",
+          "name": "Color principal",
+          "value_id": "2450308",
+          "value_name": "Blanco",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2450308",
+              "name": "Blanco",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "list"
+        },
+        {
+          "id": "MODEL",
+          "name": " Modelo del cargador",
+          "value_id": "13665105",
+          "value_name": "MHJC3LEA",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "13665105",
+              "name": "MHJC3LEA",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        }
+      ],
+      "installments": {
+        "quantity": 6,
+        "amount": 15717.01,
+        "rate": 58.92,
+        "currency_id": "ARS"
+      },
+      "winner_item_id": null,
+      "catalog_listing": true,
+      "discounts": null,
+      "promotions": [],
+      "inventory_id": null
+    },
+    {
+      "id": "MLA1528990078",
+      "title": "Apple iPhone 15 (128 Gb) - Azul",
+      "condition": "new",
+      "thumbnail_id": "759471-MLA71782897602_092023",
+      "catalog_product_id": "MLA27172667",
+      "listing_type_id": "gold_special",
+      "permalink": "https://www.mercadolibre.com.ar/apple-iphone-15-128-gb-azul/p/MLA27172667",
+      "buying_mode": "buy_it_now",
+      "site_id": "MLA",
+      "category_id": "MLA1055",
+      "domain_id": "MLA-CELLPHONES",
+      "thumbnail": "http://http2.mlstatic.com/D_759471-MLA71782897602_092023-I.jpg",
+      "currency_id": "ARS",
+      "order_backend": 2,
+      "price": 1158099,
+      "original_price": null,
+      "sale_price": null,
+      "available_quantity": 1,
+      "official_store_id": null,
+      "use_thumbnail_id": true,
+      "accepts_mercadopago": true,
+      "shipping": {
+        "store_pick_up": false,
+        "free_shipping": true,
+        "logistic_type": "xd_drop_off",
+        "mode": "me2",
+        "tags": ["self_service_in", "mandatory_free_shipping"],
+        "benefits": null,
+        "promise": null
+      },
+      "stop_time": "2043-09-29T04:00:00.000Z",
+      "seller": {
+        "id": 419467681,
+        "nickname": "MOTEC_ELECTRONICA_AR"
+      },
+      "attributes": [
+        {
+          "id": "BRAND",
+          "name": "Marca",
+          "value_id": "9344",
+          "value_name": "Apple",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "9344",
+              "name": "Apple",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52028",
+          "value_name": "Azul",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "52028",
+              "name": "Azul",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "GTIN",
+          "name": "Código universal de producto",
+          "value_id": null,
+          "value_name": "0195949036606",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "0195949036606",
+              "struct": null,
+              "source": 6808261514773724
+            }
+          ],
+          "source": 6808261514773724,
+          "value_type": "string"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null,
+              "source": 6808261514773724
+            }
+          ],
+          "source": 6808261514773724,
+          "value_type": "list"
+        },
+        {
+          "id": "LINE",
+          "name": "Línea",
+          "value_id": "25320927",
+          "value_name": "iPhone 15",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "25320927",
+              "name": "iPhone 15",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "MAIN_COLOR",
+          "name": "Color principal",
+          "value_id": "2450293",
+          "value_name": "Azul",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2450293",
+              "name": "Azul",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "list"
+        },
+        {
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_id": "25527344",
+          "value_name": "iPhone 15",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "25527344",
+              "name": "iPhone 15",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "PROCESSOR_MODEL",
+          "name": "Modelo del procesador",
+          "value_id": "13188555",
+          "value_name": "Apple A16 Bionic",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "13188555",
+              "name": "Apple A16 Bionic",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "WEIGHT",
+          "name": "Peso",
+          "value_id": "2087815",
+          "value_name": "171 g",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": {
+            "number": 171,
+            "unit": "g"
+          },
+          "values": [
+            {
+              "id": "2087815",
+              "name": "171 g",
+              "struct": {
+                "unit": "g",
+                "number": 171
+              },
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "number_unit"
+        }
+      ],
+      "installments": {
+        "quantity": 6,
+        "amount": 306741.82,
+        "rate": 58.92,
+        "currency_id": "ARS"
+      },
+      "winner_item_id": null,
+      "catalog_listing": true,
+      "discounts": null,
+      "promotions": [],
+      "inventory_id": null
+    },
+    {
+      "id": "MLA935813685",
+      "title": "Apple Macbook Air (13 Pulgadas, 2020, Chip M1, 256 Gb De Ssd, 8 Gb De Ram) - Plata",
+      "condition": "new",
+      "thumbnail_id": "648428-MLA46516517286_062021",
+      "catalog_product_id": "MLA17828520",
+      "listing_type_id": "gold_special",
+      "permalink": "https://www.mercadolibre.com.ar/apple-macbook-air-13-pulgadas-2020-chip-m1-256-gb-de-ssd-8-gb-de-ram-plata/p/MLA17828520",
+      "buying_mode": "buy_it_now",
+      "site_id": "MLA",
+      "category_id": "MLA1652",
+      "domain_id": "MLA-NOTEBOOKS",
+      "thumbnail": "http://http2.mlstatic.com/D_648428-MLA46516517286_062021-I.jpg",
+      "currency_id": "ARS",
+      "order_backend": 3,
+      "price": 1211147.05,
+      "original_price": 1589999,
+      "sale_price": null,
+      "available_quantity": 1,
+      "official_store_id": null,
+      "use_thumbnail_id": true,
+      "accepts_mercadopago": true,
+      "shipping": {
+        "store_pick_up": false,
+        "free_shipping": true,
+        "logistic_type": "fulfillment",
+        "mode": "me2",
+        "tags": ["fulfillment", "self_service_out", "mandatory_free_shipping"],
+        "benefits": null,
+        "promise": null
+      },
+      "stop_time": "2041-08-20T04:00:00.000Z",
+      "seller": {
+        "id": 287054359,
+        "nickname": "LUMPINI TRADE"
+      },
+      "attributes": [
+        {
+          "id": "BRAND",
+          "name": "Marca",
+          "value_id": "9344",
+          "value_name": "Apple",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "9344",
+              "name": "Apple",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "976",
+          "value_name": "Plata",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "976",
+              "name": "Plata",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "GTIN",
+          "name": "Código universal de producto",
+          "value_id": null,
+          "value_name": "194252048986",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "194252048986",
+              "struct": null,
+              "source": 385122562515662
+            }
+          ],
+          "source": 8910742901282450,
+          "value_type": "string"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null,
+              "source": 3045741222775799
+            }
+          ],
+          "source": 3045741222775799,
+          "value_type": "list"
+        },
+        {
+          "id": "LINE",
+          "name": "Línea",
+          "value_id": "95565",
+          "value_name": "MacBook Air",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "95565",
+              "name": "MacBook Air",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "MAIN_COLOR",
+          "name": "Color principal",
+          "value_id": "2450303",
+          "value_name": "Plateado",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2450303",
+              "name": "Plateado",
+              "struct": null,
+              "source": 4709228965570453
+            }
+          ],
+          "source": 4709228965570453,
+          "value_type": "list"
+        },
+        {
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_id": "9548024",
+          "value_name": "A2337",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "9548024",
+              "name": "A2337",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "PACKAGE_LENGTH",
+          "name": "Largo del paquete",
+          "value_id": null,
+          "value_name": "35.2 cm",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": {
+            "number": 35.2,
+            "unit": "cm"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "35.2 cm",
+              "struct": {
+                "unit": "cm",
+                "number": 35.2
+              },
+              "source": 4333789534002961
+            }
+          ],
+          "source": 4333789534002961,
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PACKAGE_WEIGHT",
+          "name": "Peso del paquete",
+          "value_id": null,
+          "value_name": "2380 g",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": {
+            "number": 2380,
+            "unit": "g"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "2380 g",
+              "struct": {
+                "number": 2380,
+                "unit": "g"
+              },
+              "source": 4333789534002961
+            }
+          ],
+          "source": 4333789534002961,
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PROCESSOR_BRAND",
+          "name": "Marca del procesador",
+          "value_id": "9344",
+          "value_name": "Apple",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "9344",
+              "name": "Apple",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "list"
+        },
+        {
+          "id": "PROCESSOR_MODEL",
+          "name": "Modelo del procesador",
+          "value_id": "17696",
+          "value_name": "M1",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "17696",
+              "name": "M1",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "WEIGHT",
+          "name": "Peso",
+          "value_id": "7212862",
+          "value_name": "1.29 kg",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": {
+            "number": 1.29,
+            "unit": "kg"
+          },
+          "values": [
+            {
+              "id": "7212862",
+              "name": "1.29 kg",
+              "struct": {
+                "unit": "kg",
+                "number": 1.29
+              },
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "number_unit"
+        }
+      ],
+      "installments": {
+        "quantity": 6,
+        "amount": 320792.48,
+        "rate": 58.92,
+        "currency_id": "ARS"
+      },
+      "winner_item_id": null,
+      "catalog_listing": true,
+      "discounts": null,
+      "promotions": [],
+      "inventory_id": "QRSL05588"
+    },
+    {
+      "id": "MLA1121239971",
+      "title": "Apple iPhone 13 (128 Gb) - Azul Medianoche",
+      "condition": "new",
+      "thumbnail_id": "973345-MLA47781591382_102021",
+      "catalog_product_id": "MLA18500844",
+      "listing_type_id": "gold_special",
+      "permalink": "https://www.mercadolibre.com.ar/apple-iphone-13-128-gb-azul-medianoche/p/MLA18500844",
+      "buying_mode": "buy_it_now",
+      "site_id": "MLA",
+      "category_id": "MLA1055",
+      "domain_id": "MLA-CELLPHONES",
+      "thumbnail": "http://http2.mlstatic.com/D_973345-MLA47781591382_102021-I.jpg",
+      "currency_id": "ARS",
+      "order_backend": 4,
+      "price": 932000,
+      "original_price": null,
+      "sale_price": null,
+      "available_quantity": 1,
+      "official_store_id": null,
+      "use_thumbnail_id": true,
+      "accepts_mercadopago": true,
+      "shipping": {
+        "store_pick_up": false,
+        "free_shipping": true,
+        "logistic_type": "xd_drop_off",
+        "mode": "me2",
+        "tags": ["self_service_in", "mandatory_free_shipping"],
+        "benefits": null,
+        "promise": null
+      },
+      "stop_time": "2042-01-23T04:00:00.000Z",
+      "seller": {
+        "id": 90262631,
+        "nickname": "APTECNO.AR"
+      },
+      "attributes": [
+        {
+          "id": "BRAND",
+          "name": "Marca",
+          "value_id": "9344",
+          "value_name": "Apple",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "9344",
+              "name": "Apple",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "11157706",
+          "value_name": "Azul medianoche",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "11157706",
+              "name": "Azul medianoche",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "GPU_MODEL",
+          "name": "Modelo de GPU",
+          "value_id": "7741027",
+          "value_name": "Apple GPU",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "7741027",
+              "name": "Apple GPU",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "GTIN",
+          "name": "Código universal de producto",
+          "value_id": null,
+          "value_name": "194252705391",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "194252705391",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null,
+              "source": 3045741222775799
+            }
+          ],
+          "source": 3045741222775799,
+          "value_type": "list"
+        },
+        {
+          "id": "LINE",
+          "name": "Línea",
+          "value_id": "13834194",
+          "value_name": "iPhone 13",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "13834194",
+              "name": "iPhone 13",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "MAIN_COLOR",
+          "name": "Color principal",
+          "value_id": "2450295",
+          "value_name": "Negro",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2450295",
+              "name": "Negro",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "list"
+        },
+        {
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_id": "11159139",
+          "value_name": "iPhone 13",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "11159139",
+              "name": "iPhone 13",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "PROCESSOR_MODEL",
+          "name": "Modelo del procesador",
+          "value_id": "11151775",
+          "value_name": "Apple A15 Bionic",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "11151775",
+              "name": "Apple A15 Bionic",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "WEIGHT",
+          "name": "Peso",
+          "value_id": "462013",
+          "value_name": "173 g",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": {
+            "number": 173,
+            "unit": "g"
+          },
+          "values": [
+            {
+              "id": "462013",
+              "name": "173 g",
+              "struct": {
+                "number": 173,
+                "unit": "g"
+              },
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "number_unit"
+        }
+      ],
+      "installments": {
+        "quantity": 6,
+        "amount": 246855.73,
+        "rate": 58.92,
+        "currency_id": "ARS"
+      },
+      "winner_item_id": null,
+      "catalog_listing": true,
+      "discounts": null,
+      "promotions": [],
+      "inventory_id": null
+    }
+  ],
+  "sort": {
+    "id": "relevance",
+    "name": "Más relevantes"
+  },
+  "available_sorts": [
+    {
+      "id": "price_asc",
+      "name": "Menor precio"
+    },
+    {
+      "id": "price_desc",
+      "name": "Mayor precio"
+    }
+  ],
+  "filters": [],
+  "available_filters": [
+    {
+      "id": "category",
+      "name": "Categorías",
+      "type": "text",
+      "values": [
+        {
+          "id": "MLA1648",
+          "name": "Computación",
+          "results": 10105
+        },
+        {
+          "id": "MLA3502",
+          "name": "Accesorios para Celulares",
+          "results": 22300
+        },
+        {
+          "id": "MLA1055",
+          "name": "Celulares y Smartphones",
+          "results": 11256
+        },
+        {
+          "id": "MLA417704",
+          "name": "Smartwatches y Accesorios",
+          "results": 6931
+        },
+        {
+          "id": "MLA3813",
+          "name": "Repuestos de Celulares",
+          "results": 5746
+        },
+        {
+          "id": "MLA3937",
+          "name": "Joyas y Relojes",
+          "results": 5422
+        },
+        {
+          "id": "MLA3025",
+          "name": "Libros, Revistas y Comics",
+          "results": 3120
+        },
+        {
+          "id": "MLA1000",
+          "name": "Electrónica, Audio y Video",
+          "results": 2223
+        },
+        {
+          "id": "MLA1168",
+          "name": "Música, Películas y Series",
+          "results": 1326
+        },
+        {
+          "id": "MLA1574",
+          "name": "Hogar, Muebles y Jardín",
+          "results": 689
+        },
+        {
+          "id": "MLA409431",
+          "name": "Salud y Equipamiento Médico",
+          "results": 351
+        },
+        {
+          "id": "MLA1276",
+          "name": "Deportes y Fitness",
+          "results": 338
+        },
+        {
+          "id": "MLA1430",
+          "name": "Ropa y Accesorios",
+          "results": 312
+        },
+        {
+          "id": "MLA1403",
+          "name": "Alimentos y Bebidas",
+          "results": 208
+        },
+        {
+          "id": "MLA1182",
+          "name": "Instrumentos Musicales",
+          "results": 182
+        },
+        {
+          "id": "MLA1246",
+          "name": "Belleza y Cuidado Personal",
+          "results": 169
+        },
+        {
+          "id": "MLA1368",
+          "name": "Arte, Librería y Mercería",
+          "results": 143
+        },
+        {
+          "id": "MLA1499",
+          "name": "Industrias y Oficinas",
+          "results": 117
+        },
+        {
+          "id": "MLA5725",
+          "name": "Accesorios para Vehículos",
+          "results": 104
+        },
+        {
+          "id": "MLA407134",
+          "name": "Herramientas",
+          "results": 104
+        },
+        {
+          "id": "MLA1144",
+          "name": "Consolas y Videojuegos",
+          "results": 78
+        },
+        {
+          "id": "MLA1132",
+          "name": "Juegos y Juguetes",
+          "results": 65
+        },
+        {
+          "id": "MLA1039",
+          "name": "Cámaras y Accesorios",
+          "results": 52
+        },
+        {
+          "id": "MLA1384",
+          "name": "Bebés",
+          "results": 39
+        },
+        {
+          "id": "MLA1500",
+          "name": "Construcción",
+          "results": 39
+        },
+        {
+          "id": "MLA401278",
+          "name": "Lentes de Realidad Virtual",
+          "results": 39
+        },
+        {
+          "id": "MLA1512",
+          "name": "Agro",
+          "results": 13
+        },
+        {
+          "id": "MLA1540",
+          "name": "Servicios",
+          "results": 13
+        },
+        {
+          "id": "MLA1953",
+          "name": "Otras categorías",
+          "results": 104
+        },
+        {
+          "id": "MLA1915",
+          "name": "Otros",
+          "results": 39
+        }
+      ]
+    },
+    {
+      "id": "official_store",
+      "name": "Tiendas oficiales",
+      "type": "text",
+      "values": [
+        {
+          "id": "all",
+          "name": "Todas las tiendas oficiales",
+          "results": 2352
+        },
+        {
+          "id": "2549",
+          "name": "Apple",
+          "results": 271
+        },
+        {
+          "id": "64004",
+          "name": "Ferbi",
+          "results": 1
+        }
+      ]
+    },
+    {
+      "id": "state",
+      "name": "Ubicación",
+      "type": "text",
+      "values": [
+        {
+          "id": "TUxBUENBUGw3M2E1",
+          "name": "Capital Federal",
+          "results": 32340
+        },
+        {
+          "id": "TUxBUEdSQXJlMDNm",
+          "name": "Bs.As. G.B.A. Sur",
+          "results": 8935
+        },
+        {
+          "id": "TUxBUEdSQWU4ZDkz",
+          "name": "Bs.As. G.B.A. Norte",
+          "results": 6753
+        },
+        {
+          "id": "TUxBUEdSQWVmNTVm",
+          "name": "Bs.As. G.B.A. Oeste",
+          "results": 3607
+        },
+        {
+          "id": "TUxBUENPUmFkZGIw",
+          "name": "Córdoba",
+          "results": 2603
+        },
+        {
+          "id": "TUxBUFNBTmU5Nzk2",
+          "name": "Santa Fe",
+          "results": 1772
+        },
+        {
+          "id": "TUxBUFpPTmFpbnRl",
+          "name": "Buenos Aires Interior",
+          "results": 1157
+        },
+        {
+          "id": "TUxBUE1FTmE5OWQ4",
+          "name": "Mendoza",
+          "results": 546
+        },
+        {
+          "id": "TUxBUENPU2ExMmFkMw",
+          "name": "Bs.As. Costa Atlántica",
+          "results": 468
+        },
+        {
+          "id": "TUxBUFRVQ244NmM3",
+          "name": "Tucumán",
+          "results": 325
+        },
+        {
+          "id": "TUxBUEVOVHMzNTdm",
+          "name": "Entre Ríos",
+          "results": 221
+        },
+        {
+          "id": "TUxBUFNBTm5lYjU4",
+          "name": "San Juan",
+          "results": 195
+        },
+        {
+          "id": "TUxBUE5FVW4xMzMzNQ",
+          "name": "Neuquén",
+          "results": 143
+        },
+        {
+          "id": "TUxBUFNBTGFjMTJi",
+          "name": "Salta",
+          "results": 130
+        },
+        {
+          "id": "TUxBUE1JU3MzNjIx",
+          "name": "Misiones",
+          "results": 119
+        },
+        {
+          "id": "TUxBUENIQW8xMTNhOA",
+          "name": "Chaco",
+          "results": 104
+        },
+        {
+          "id": "TUxBUENIVXQxNDM1MQ",
+          "name": "Chubut",
+          "results": 104
+        },
+        {
+          "id": "TUxBUFLNT29iZmZm",
+          "name": "Río Negro",
+          "results": 104
+        },
+        {
+          "id": "TUxBUENPUnM5MjI0",
+          "name": "Corrientes",
+          "results": 92
+        },
+        {
+          "id": "TUxBUFNBTm9lOTlk",
+          "name": "Santiago del Estero",
+          "results": 91
+        },
+        {
+          "id": "TUxBUFNBTnM0ZTcz",
+          "name": "San Luis",
+          "results": 78
+        },
+        {
+          "id": "TUxBUENBVGFiY2Fm",
+          "name": "Catamarca",
+          "results": 65
+        },
+        {
+          "id": "TUxBUExBWmE1OWMy",
+          "name": "La Pampa",
+          "results": 52
+        },
+        {
+          "id": "TUxBUFNBTno3ZmY5",
+          "name": "Santa Cruz",
+          "results": 52
+        },
+        {
+          "id": "TUxBUEZPUmE1OTk5",
+          "name": "Formosa",
+          "results": 26
+        },
+        {
+          "id": "TUxBUEpVSnk3YmUz",
+          "name": "Jujuy",
+          "results": 26
+        },
+        {
+          "id": "TUxBUExBWmEyNzY0",
+          "name": "La Rioja",
+          "results": 26
+        }
+      ]
+    },
+    {
+      "id": "discount",
+      "name": "Descuentos",
+      "type": "number",
+      "values": [
+        {
+          "id": "5-100",
+          "name": "Desde 5% OFF",
+          "results": 4506
+        },
+        {
+          "id": "10-100",
+          "name": "Desde 10% OFF",
+          "results": 2161
+        },
+        {
+          "id": "15-100",
+          "name": "Desde 15% OFF",
+          "results": 1298
+        },
+        {
+          "id": "20-100",
+          "name": "Desde 20% OFF",
+          "results": 940
+        },
+        {
+          "id": "25-100",
+          "name": "Desde 25% OFF",
+          "results": 654
+        },
+        {
+          "id": "30-100",
+          "name": "Desde 30% OFF",
+          "results": 535
+        },
+        {
+          "id": "40-100",
+          "name": "Desde 40% OFF",
+          "results": 309
+        },
+        {
+          "id": "50-100",
+          "name": "Desde 50% OFF",
+          "results": 121
+        },
+        {
+          "id": "60-100",
+          "name": "Desde 60% OFF",
+          "results": 13
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "name": "Precio",
+      "type": "range",
+      "values": [
+        {
+          "id": "*-20000.0",
+          "name": "Hasta $ 20.000",
+          "results": 20285
+        },
+        {
+          "id": "20000.0-150000.0",
+          "name": "$20.000 a $150.000",
+          "results": 21480
+        },
+        {
+          "id": "150000.0-*",
+          "name": "Más de $150.000",
+          "results": 21918
+        }
+      ]
+    },
+    {
+      "id": "accepts_mercadopago",
+      "name": "Filtro por MercadoPago",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Con MercadoPago",
+          "results": 63683
+        }
+      ]
+    },
+    {
+      "id": "installments",
+      "name": "Financiación",
+      "type": "text",
+      "values": [
+        {
+          "id": "yes",
+          "name": "En cuotas",
+          "results": 46973
+        },
+        {
+          "id": "no_interest",
+          "name": "Sin interés",
+          "results": 5205
+        },
+        {
+          "id": "campaign_cuota_simple",
+          "name": "Cuota Simple",
+          "results": 27
+        }
+      ]
+    },
+    {
+      "id": "shipping",
+      "name": "Envío",
+      "type": "text",
+      "values": [
+        {
+          "id": "mercadoenvios",
+          "name": "Mercado Envíos",
+          "results": 61824
+        },
+        {
+          "id": "fulfillment",
+          "name": "Full",
+          "results": 838
+        }
+      ]
+    },
+    {
+      "id": "power_seller",
+      "name": "Filtro por calidad de vendedores",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Mejores vendedores",
+          "results": 30068
+        }
+      ]
+    },
+    {
+      "id": "since",
+      "name": "Filtro por fecha de comienzo",
+      "type": "text",
+      "values": [
+        {
+          "id": "today",
+          "name": "Publicados hoy",
+          "results": 481
+        }
+      ]
+    },
+    {
+      "id": "until",
+      "name": "Filtro por fecha de finalización",
+      "type": "text",
+      "values": [
+        {
+          "id": "today",
+          "name": "Finalizan hoy",
+          "results": 104
+        }
+      ]
+    },
+    {
+      "id": "has_video",
+      "name": "Filtro por publicaciones con video",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Publicaciones con video",
+          "results": 4283
+        }
+      ]
+    },
+    {
+      "id": "has_pictures",
+      "name": "Filtro por publicaciones con imágenes",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Con fotos",
+          "results": 63683
+        }
+      ]
+    },
+    {
+      "id": "adult_content",
+      "name": "Filtro de contenido adulto",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Contenido adulto",
+          "results": 3
+        }
+      ]
+    },
+    {
+      "id": "all_payment_methods_discount",
+      "name": "Descuentos para todos los medios de pago",
+      "type": "number",
+      "values": [
+        {
+          "id": "1-100",
+          "name": "Desde 1% OFF",
+          "results": 867
+        },
+        {
+          "id": "5-100",
+          "name": "Desde 5% OFF",
+          "results": 737
+        },
+        {
+          "id": "10-100",
+          "name": "Desde 10% OFF",
+          "results": 711
+        },
+        {
+          "id": "15-100",
+          "name": "Desde 15% OFF",
+          "results": 238
+        },
+        {
+          "id": "20-100",
+          "name": "Desde 20% OFF",
+          "results": 171
+        },
+        {
+          "id": "25-100",
+          "name": "Desde 25% OFF",
+          "results": 93
+        },
+        {
+          "id": "30-100",
+          "name": "Desde 30% OFF",
+          "results": 79
+        }
+      ]
+    },
+    {
+      "id": "price_campaign_id",
+      "name": "Campaña",
+      "type": "number",
+      "values": [
+        {
+          "id": "MLA52903",
+          "name": "MLA52903",
+          "results": 19
+        },
+        {
+          "id": "P-MLA13949034",
+          "name": "P-MLA13949034",
+          "results": 9
+        },
+        {
+          "id": "P-MLA13941224",
+          "name": "P-MLA13941224",
+          "results": 3
+        },
+        {
+          "id": "MLA53545",
+          "name": "MLA53545",
+          "results": 2
+        }
+      ]
+    },
+    {
+      "id": "promotion_type",
+      "name": "Tipo de promoción",
+      "type": "text",
+      "values": [
+        {
+          "id": "deal_of_the_day",
+          "name": "Oferta del día",
+          "results": 10
+        }
+      ]
+    },
+    {
+      "id": "shipping_cost",
+      "name": "Costo de envío",
+      "type": "text",
+      "values": [
+        {
+          "id": "free",
+          "name": "Gratis",
+          "results": 30606
+        }
+      ]
+    },
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "STRING",
+      "values": [
+        {
+          "id": "9344",
+          "name": "Apple",
+          "results": 22944
+        },
+        {
+          "id": "276243",
+          "name": "Genérica",
+          "results": 7176
+        },
+        {
+          "id": "5512424",
+          "name": "Norcel",
+          "results": 1332
+        },
+        {
+          "id": "114658",
+          "name": "Ringke",
+          "results": 828
+        },
+        {
+          "id": "103546",
+          "name": "Spigen",
+          "results": 804
+        },
+        {
+          "id": "2131342",
+          "name": "Soul",
+          "results": 588
+        },
+        {
+          "id": "5160021",
+          "name": "Sun Shine",
+          "results": 432
+        },
+        {
+          "id": "11100246",
+          "name": "OtterBox",
+          "results": 408
+        },
+        {
+          "id": "5159007",
+          "name": "Wiwu",
+          "results": 384
+        },
+        {
+          "id": "15887074",
+          "name": "Sp Connect",
+          "results": 336
+        },
+        {
+          "id": "11388792",
+          "name": "Kwmobile",
+          "results": 336
+        },
+        {
+          "id": "59772",
+          "name": "OEM",
+          "results": 324
+        },
+        {
+          "id": "206",
+          "name": "Samsung",
+          "results": 324
+        },
+        {
+          "id": "16495271",
+          "name": "Ampsentrix",
+          "results": 312
+        },
+        {
+          "id": "149762",
+          "name": "Cameron Sino",
+          "results": 264
+        },
+        {
+          "id": "2551756",
+          "name": "Panda",
+          "results": 240
+        },
+        {
+          "id": "34586775",
+          "name": "Wearlizer",
+          "results": 228
+        },
+        {
+          "id": "22294789",
+          "name": "Megan Tech",
+          "results": 204
+        },
+        {
+          "id": "215",
+          "name": "LG",
+          "results": 204
+        },
+        {
+          "id": "15886180",
+          "name": "Mobile Parts",
+          "results": 192
+        },
+        {
+          "id": "122872",
+          "name": "Beats",
+          "results": 168
+        },
+        {
+          "id": "49944",
+          "name": "HP",
+          "results": 156
+        },
+        {
+          "id": "25431409",
+          "name": "Fullmosa",
+          "results": 156
+        },
+        {
+          "id": "170983",
+          "name": "Silicone",
+          "results": 144
+        },
+        {
+          "id": "13210911",
+          "name": "Mikra",
+          "results": 144
+        },
+        {
+          "id": "183772",
+          "name": "Baseus",
+          "results": 132
+        },
+        {
+          "id": "34878228",
+          "name": "Keisi",
+          "results": 120
+        },
+        {
+          "id": "27216",
+          "name": "Amazon",
+          "results": 120
+        },
+        {
+          "id": "168521",
+          "name": "Roku",
+          "results": 120
+        },
+        {
+          "id": "34621537",
+          "name": "Seizehe",
+          "results": 108
+        },
+        {
+          "id": "2891378",
+          "name": "Zagg",
+          "results": 108
+        },
+        {
+          "id": "15903",
+          "name": "Acer",
+          "results": 108
+        },
+        {
+          "id": "9819865",
+          "name": "Alitrade",
+          "results": 96
+        },
+        {
+          "id": "52701",
+          "name": "Google",
+          "results": 96
+        },
+        {
+          "id": "36560387",
+          "name": "Lerobo",
+          "results": 96
+        },
+        {
+          "id": "35185192",
+          "name": "Ouheng",
+          "results": 96
+        },
+        {
+          "id": "34474573",
+          "name": "Acrbiutu",
+          "results": 96
+        },
+        {
+          "id": "2787029",
+          "name": "Tech 21",
+          "results": 96
+        },
+        {
+          "id": "11445615",
+          "name": "Prodigee",
+          "results": 96
+        },
+        {
+          "id": "403225",
+          "name": "Case",
+          "results": 84
+        },
+        {
+          "id": "35982873",
+          "name": "Kyisgos",
+          "results": 84
+        },
+        {
+          "id": "33761676",
+          "name": "Secbolt",
+          "results": 84
+        },
+        {
+          "id": "195091",
+          "name": "Hikvision",
+          "results": 84
+        },
+        {
+          "id": "13951494",
+          "name": "LYR",
+          "results": 84
+        },
+        {
+          "id": "98392",
+          "name": "Nillkin",
+          "results": 72
+        },
+        {
+          "id": "8216",
+          "name": "Dell",
+          "results": 72
+        },
+        {
+          "id": "39797",
+          "name": "Arkon",
+          "results": 72
+        },
+        {
+          "id": "38708",
+          "name": "Satechi",
+          "results": 72
+        },
+        {
+          "id": "34516160",
+          "name": "Lucky Twins",
+          "results": 72
+        },
+        {
+          "id": "3",
+          "name": "Philips",
+          "results": 72
+        },
+        {
+          "id": "24791237",
+          "name": "AYRAX",
+          "results": 72
+        },
+        {
+          "id": "24389842",
+          "name": "Oribox",
+          "results": 72
+        },
+        {
+          "id": "2301296",
+          "name": "PureGear",
+          "results": 72
+        },
+        {
+          "id": "15928122",
+          "name": "CG",
+          "results": 72
+        },
+        {
+          "id": "13784170",
+          "name": "I & O",
+          "results": 72
+        },
+        {
+          "id": "12179116",
+          "name": "Artiko",
+          "results": 72
+        },
+        {
+          "id": "11156473",
+          "name": "Urban Armor Gear",
+          "results": 72
+        },
+        {
+          "id": "10314378",
+          "name": "Ocean Gadgets",
+          "results": 72
+        },
+        {
+          "id": "10180338",
+          "name": "Walden",
+          "results": 72
+        },
+        {
+          "id": "8171868",
+          "name": "TM",
+          "results": 60
+        },
+        {
+          "id": "5466267",
+          "name": "LC",
+          "results": 60
+        },
+        {
+          "id": "49109",
+          "name": "Foxconn",
+          "results": 60
+        },
+        {
+          "id": "4438220",
+          "name": "Smirnoff",
+          "results": 60
+        },
+        {
+          "id": "35982659",
+          "name": "Cover Cell",
+          "results": 60
+        },
+        {
+          "id": "35185298",
+          "name": "Mosonio",
+          "results": 60
+        },
+        {
+          "id": "20789103",
+          "name": "AhaStyle",
+          "results": 60
+        },
+        {
+          "id": "16011673",
+          "name": "Alitoys",
+          "results": 60
+        },
+        {
+          "id": "15158",
+          "name": "SX",
+          "results": 60
+        },
+        {
+          "id": "12189922",
+          "name": "Hydroglass",
+          "results": 60
+        },
+        {
+          "id": "11476",
+          "name": "Compaq",
+          "results": 60
+        },
+        {
+          "id": "104913",
+          "name": "Pro'sKit",
+          "results": 60
+        },
+        {
+          "id": "482878",
+          "name": "Cocot",
+          "results": 48
+        },
+        {
+          "id": "35982652",
+          "name": "Epuly",
+          "results": 48
+        },
+        {
+          "id": "34678119",
+          "name": "Amznew",
+          "results": 48
+        },
+        {
+          "id": "2940162",
+          "name": "OPI",
+          "results": 48
+        },
+        {
+          "id": "28585602",
+          "name": "Surphy",
+          "results": 48
+        },
+        {
+          "id": "26619769",
+          "name": "Bulksupplements",
+          "results": 48
+        },
+        {
+          "id": "191958",
+          "name": "West",
+          "results": 48
+        },
+        {
+          "id": "18553738",
+          "name": "Silicone Case",
+          "results": 48
+        },
+        {
+          "id": "16974223",
+          "name": "Elago",
+          "results": 48
+        },
+        {
+          "id": "16097552",
+          "name": "Pzoz",
+          "results": 48
+        },
+        {
+          "id": "15168",
+          "name": "Fender",
+          "results": 48
+        },
+        {
+          "id": "13914270",
+          "name": "Protection Mobile",
+          "results": 48
+        },
+        {
+          "id": "12860011",
+          "name": "GEN",
+          "results": 48
+        },
+        {
+          "id": "12355450",
+          "name": "Oulucci",
+          "results": 48
+        },
+        {
+          "id": "11973283",
+          "name": "Baisrke",
+          "results": 48
+        },
+        {
+          "id": "11403609",
+          "name": "CaseMe",
+          "results": 48
+        },
+        {
+          "id": "1133512",
+          "name": "Skyway",
+          "results": 48
+        },
+        {
+          "id": "11199203",
+          "name": "Supcase",
+          "results": 48
+        },
+        {
+          "id": "108701",
+          "name": "i-Blason",
+          "results": 48
+        },
+        {
+          "id": "995",
+          "name": "Sony",
+          "results": 36
+        },
+        {
+          "id": "7494",
+          "name": "Lenovo",
+          "results": 36
+        },
+        {
+          "id": "471755",
+          "name": "Incipio",
+          "results": 36
+        },
+        {
+          "id": "38765",
+          "name": "Smart",
+          "results": 36
+        },
+        {
+          "id": "3618199",
+          "name": "Jack Daniel's",
+          "results": 36
+        },
+        {
+          "id": "35982682",
+          "name": "Marge Plus",
+          "results": 36
+        },
+        {
+          "id": "35955551",
+          "name": "Iiteeology",
+          "results": 36
+        },
+        {
+          "id": "28624807",
+          "name": "WFEAGL",
+          "results": 36
+        },
+        {
+          "id": "25360761",
+          "name": "amband",
+          "results": 36
+        },
+        {
+          "id": "22314938",
+          "name": "Smiling",
+          "results": 36
+        },
+        {
+          "id": "20434599",
+          "name": "Happy Fix",
+          "results": 36
+        },
+        {
+          "id": "16495117",
+          "name": "Ondatuonda Didí",
+          "results": 36
+        },
+        {
+          "id": "15788",
+          "name": "Logitech",
+          "results": 36
+        },
+        {
+          "id": "15284054",
+          "name": "Raptic",
+          "results": 36
+        },
+        {
+          "id": "14404099",
+          "name": "Gold Edition",
+          "results": 36
+        },
+        {
+          "id": "13834572",
+          "name": "ESR",
+          "results": 36
+        },
+        {
+          "id": "13810776",
+          "name": "Xundd",
+          "results": 36
+        },
+        {
+          "id": "12901572",
+          "name": "NotoCity",
+          "results": 36
+        },
+        {
+          "id": "12298906",
+          "name": "Devia",
+          "results": 36
+        },
+        {
+          "id": "12066428",
+          "name": "Saphirus",
+          "results": 36
+        },
+        {
+          "id": "11452626",
+          "name": "Mateprox",
+          "results": 36
+        },
+        {
+          "id": "11317383",
+          "name": "Supershieldz",
+          "results": 36
+        },
+        {
+          "id": "11156454",
+          "name": "RhinoShield",
+          "results": 36
+        },
+        {
+          "id": "98385",
+          "name": "Anker",
+          "results": 24
+        },
+        {
+          "id": "93691",
+          "name": "Banghó",
+          "results": 24
+        },
+        {
+          "id": "9105296",
+          "name": "BsAs Tecno",
+          "results": 24
+        },
+        {
+          "id": "86284",
+          "name": "Commodore",
+          "results": 24
+        },
+        {
+          "id": "86191",
+          "name": "Positivo BGH",
+          "results": 24
+        },
+        {
+          "id": "7294334",
+          "name": "Asus",
+          "results": 24
+        },
+        {
+          "id": "6048910",
+          "name": "Appel",
+          "results": 24
+        },
+        {
+          "id": "59497",
+          "name": "Oppo",
+          "results": 24
+        },
+        {
+          "id": "59387",
+          "name": "Xiaomi",
+          "results": 24
+        },
+        {
+          "id": "5608974",
+          "name": "ProCase",
+          "results": 24
+        },
+        {
+          "id": "5305118",
+          "name": "LK",
+          "results": 24
+        },
+        {
+          "id": "5015089",
+          "name": "Plavicon",
+          "results": 24
+        },
+        {
+          "id": "47354",
+          "name": "Corsair",
+          "results": 24
+        },
+        {
+          "id": "44198",
+          "name": "iLuv",
+          "results": 24
+        },
+        {
+          "id": "428791",
+          "name": "MAC",
+          "results": 24
+        },
+        {
+          "id": "410974",
+          "name": "Gadnic",
+          "results": 24
+        },
+        {
+          "id": "3668939",
+          "name": "Aidata",
+          "results": 24
+        },
+        {
+          "id": "3653184",
+          "name": "Alto Impacto",
+          "results": 24
+        },
+        {
+          "id": "34902731",
+          "name": "Swees",
+          "results": 24
+        },
+        {
+          "id": "34516089",
+          "name": "Lwsengme",
+          "results": 24
+        },
+        {
+          "id": "32181936",
+          "name": "V-MORO",
+          "results": 24
+        },
+        {
+          "id": "27222",
+          "name": "EXO",
+          "results": 24
+        },
+        {
+          "id": "26935202",
+          "name": "Antbox",
+          "results": 24
+        },
+        {
+          "id": "26935127",
+          "name": "Full Cover",
+          "results": 24
+        },
+        {
+          "id": "26935080",
+          "name": "Invisibleshield",
+          "results": 24
+        },
+        {
+          "id": "2675408",
+          "name": "Oculus",
+          "results": 24
+        },
+        {
+          "id": "2668457",
+          "name": "Bambú",
+          "results": 24
+        },
+        {
+          "id": "25512072",
+          "name": "Full3d",
+          "results": 24
+        },
+        {
+          "id": "2524335",
+          "name": "Intelaid",
+          "results": 24
+        },
+        {
+          "id": "2286577",
+          "name": "Sonoff",
+          "results": 24
+        },
+        {
+          "id": "22453685",
+          "name": "Fancy Buying",
+          "results": 24
+        },
+        {
+          "id": "2181",
+          "name": "JVC",
+          "results": 24
+        },
+        {
+          "id": "20522132",
+          "name": "Macbook",
+          "results": 24
+        },
+        {
+          "id": "2045",
+          "name": "Toshiba",
+          "results": 24
+        },
+        {
+          "id": "19674733",
+          "name": "Matte",
+          "results": 24
+        },
+        {
+          "id": "17821084",
+          "name": "EX",
+          "results": 24
+        },
+        {
+          "id": "16839668",
+          "name": "Ba Hidro",
+          "results": 24
+        },
+        {
+          "id": "16588423",
+          "name": "Wsken",
+          "results": 24
+        },
+        {
+          "id": "16215",
+          "name": "MSI",
+          "results": 24
+        },
+        {
+          "id": "16095925",
+          "name": "Silicona",
+          "results": 24
+        },
+        {
+          "id": "14901108",
+          "name": "Vt",
+          "results": 24
+        },
+        {
+          "id": "145162",
+          "name": "Nature's Bounty",
+          "results": 24
+        },
+        {
+          "id": "14403682",
+          "name": "DLP",
+          "results": 24
+        },
+        {
+          "id": "13772573",
+          "name": "AAA",
+          "results": 24
+        },
+        {
+          "id": "131780",
+          "name": "Puritan's Pride",
+          "results": 24
+        },
+        {
+          "id": "12707328",
+          "name": "Grêmio",
+          "results": 24
+        },
+        {
+          "id": "11945137",
+          "name": "Torras",
+          "results": 24
+        },
+        {
+          "id": "11580770",
+          "name": "Tranesca",
+          "results": 24
+        },
+        {
+          "id": "11506821",
+          "name": "ImpactStrong",
+          "results": 24
+        },
+        {
+          "id": "11452619",
+          "name": "Luhouri",
+          "results": 24
+        },
+        {
+          "id": "11452589",
+          "name": "Unov",
+          "results": 24
+        },
+        {
+          "id": "11307080",
+          "name": "Encased",
+          "results": 24
+        },
+        {
+          "id": "11274955",
+          "name": "Sunmall",
+          "results": 24
+        },
+        {
+          "id": "11182209",
+          "name": "Aitech",
+          "results": 24
+        },
+        {
+          "id": "10343",
+          "name": "Alpine",
+          "results": 24
+        },
+        {
+          "id": "10151",
+          "name": "DBS",
+          "results": 24
+        },
+        {
+          "id": "9974",
+          "name": "Dash",
+          "results": 12
+        },
+        {
+          "id": "9936198",
+          "name": "Odyson",
+          "results": 12
+        },
+        {
+          "id": "9595212",
+          "name": "X-Time",
+          "results": 12
+        },
+        {
+          "id": "93504",
+          "name": "Kanji",
+          "results": 12
+        },
+        {
+          "id": "930275",
+          "name": "Pelikan",
+          "results": 12
+        },
+        {
+          "id": "8784",
+          "name": "Huawei",
+          "results": 12
+        },
+        {
+          "id": "83152",
+          "name": "Seisa",
+          "results": 12
+        },
+        {
+          "id": "7855833",
+          "name": "Intel",
+          "results": 12
+        },
+        {
+          "id": "7696",
+          "name": "3M",
+          "results": 12
+        },
+        {
+          "id": "7495095",
+          "name": "Yeelight",
+          "results": 12
+        },
+        {
+          "id": "7255447",
+          "name": "Bronson",
+          "results": 12
+        },
+        {
+          "id": "6988370",
+          "name": "Dr. Mercola",
+          "results": 12
+        },
+        {
+          "id": "6724649",
+          "name": "Nature's Nutrition",
+          "results": 12
+        },
+        {
+          "id": "66708",
+          "name": "Dodge",
+          "results": 12
+        },
+        {
+          "id": "6351",
+          "name": "Yamaha",
+          "results": 12
+        },
+        {
+          "id": "6324379",
+          "name": "Nutricost",
+          "results": 12
+        },
+        {
+          "id": "6150428",
+          "name": "Omoton",
+          "results": 12
+        },
+        {
+          "id": "6100609",
+          "name": "Blunt",
+          "results": 12
+        },
+        {
+          "id": "5999177",
+          "name": "Soft",
+          "results": 12
+        },
+        {
+          "id": "5954537",
+          "name": "Source Naturals",
+          "results": 12
+        },
+        {
+          "id": "593",
+          "name": "Ken Brown",
+          "results": 12
+        },
+        {
+          "id": "5759329",
+          "name": "Vacu Vin",
+          "results": 12
+        },
+        {
+          "id": "5738287",
+          "name": "KAL",
+          "results": 12
+        },
+        {
+          "id": "5639496",
+          "name": "WOW",
+          "results": 12
+        },
+        {
+          "id": "5567645",
+          "name": "Hseok",
+          "results": 12
+        },
+        {
+          "id": "5451970",
+          "name": "Stand",
+          "results": 12
+        }
+      ]
+    },
+    {
+      "id": "ITEM_CONDITION",
+      "name": "Condición",
+      "type": "STRING",
+      "values": [
+        {
+          "id": "2230284",
+          "name": "Nuevo",
+          "results": 40152
+        },
+        {
+          "id": "2230581",
+          "name": "Usado",
+          "results": 19200
+        },
+        {
+          "id": "2230582",
+          "name": "Reacondicionado",
+          "results": 468
+        }
+      ]
+    },
+    {
+      "id": "product",
+      "name": "Producto",
+      "type": "text",
+      "values": [
+        {
+          "id": "MLA29807448",
+          "name": "Bolígrafo Apple Pencil (segunda generación)",
+          "results": 79
+        },
+        {
+          "id": "MLA18498454",
+
+          "results": 14
+        },
+        {
+          "id": "MLA27918950",
+          "name": "Apple Pencil 1ra Generación - Lápiz Optico Apple - Con Adaptador Usb-c",
+          "results": 14
+        },
+        {
+          "id": "MLA1006332786",
+          "name": "Apple Magic Mouse 2 Plateado - Distribuidor Autorizado",
+          "results": 1
+        },
+        {
+          "id": "MLA1006354142",
+          "name": "Teclado bluetooth Apple Magic QWERTY español España color plata y blanco - Distribuidor Autorizado",
+          "results": 1
+        },
+        {
+          "id": "MLA1018500855",
+          "name": "Apple iPhone 13 (128 GB) - Blanco estelar - Distribuidor Autorizado",
+          "results": 1
+        },
+        {
+          "id": "MLA1018500858",
+          "name": "Apple iPhone 13 (256 GB) - Azul medianoche - Distribuidor Autorizado",
+          "results": 1
+        },
+        {
+          "id": "MLA1018624429",
+          "name": "Apple MacBook Pro (16 pulgadas, Chip M1 Pro de Apple con CPU de 10 núcleos,, 16 GB RAM, 512 GB SSD) - color plata - Distribuidor Autorizado",
+          "results": 1
+        },
+        {
+          "id": "MLA1018713029",
+          "name": "Apple Magic Mouse 3 Color Blanco - Distribuidor Autorizado",
+          "results": 1
+        },
+        {
+          "id": "MLA1018969582",
+          "name": "Apple iPhone SE (3ª generación, 64 GB) - Blanco estelar - Distribuidor autorizado",
+          "results": 1
+        },
+        {
+          "id": "MLA1018969583",
+          "name": "Apple iPhone SE SE (3ª generación, 64 GB) - Azul medianoche - Distribuidor Autorizado",
+          "results": 1
+        },
+        {
+          "id": "MLA1018969584",
+          "name": "Apple iPhone SE (3ª generación, 128 GB) - PRODUCT(RED) - Distribuidor autorizado",
+          "results": 1
+        },
+        {
+          "id": "MLA1018969585",
+          "name": "Apple iPhone SE (3ª generación, 128 GB) - Blanco estelar - Distribuidor autorizado",
+          "results": 1
+        },
+        {
+          "id": "MLA1019563442",
+
+          "results": 1
+        },
+        {
+          "id": "MLA1019563445",
+
+          "results": 1
+        },
+        {
+          "id": "MLA1019852750",
+          "name": "Cable USB 2.0 Celular Blanco USB Lightning - Distribuidor Autorizado",
+          "results": 1
+        },
+        {
+          "id": "MLA1019866763",
+          "name": "Cargador Fast Apple Original iPhone 13 13 Pro Max Usb-c 20w Color Blanco - Distribuidor Autorizado",
+          "results": 1
+        }
+      ]
+    }
+  ],
+  "pdp_tracking": {
+    "group": false,
+    "product_info": [
+      {
+        "id": "MLA1019866763",
+        "score": 1,
+        "status": "shown"
+      },
+      {
+        "id": "MLA27172667",
+        "score": 1,
+        "status": "shown"
+      },
+      {
+        "id": "MLA17828520",
+        "score": 1,
+        "status": "shown"
+      },
+      {
+        "id": "MLA18500844",
+        "score": 1,
+        "status": "shown"
+      }
+    ]
+  }
+}

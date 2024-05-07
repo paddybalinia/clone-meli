@@ -23,7 +23,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   a:hover {
-    color: #535bf2;
+    color: #000;
   }
   html{
     background: ${(props) => props.theme.colors.bgSecondary}; 
@@ -37,6 +37,8 @@ const GlobalStyle = createGlobalStyle`
 
 
   a {
+    color: inherit;
+    font: inherit;
     text-decoration: none;
     outline: 0;
   }
