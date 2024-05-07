@@ -1,10 +1,11 @@
-import { Link, useParams } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Grid from "../components/Grid/GridContainer";
 import FilteredRow from "../components/Row/FilteredRow";
 import respondeSeach from "../mocks/seachResult.json";
 import styled from "styled-components";
 import Image from "../components/Image/Image";
 import IconFull from "../components/Icons/Full";
+import { useFetchData } from "../services/fetchData";
 
 export const SeachResult = styled.div`
   margin: 40px auto;
@@ -33,7 +34,6 @@ export const ItemTitle = styled.h3`
 `;
 export const ItemPrice = styled.span`
   color: ${(props) => props.theme.colors.colorTextDark};
-
   font-size: 24px;
   font-weight: 400;
   line-height: 1.25;
@@ -60,15 +60,22 @@ export const ItemShipping = styled.span`
 export default function Search() {
   const busqueda = respondeSeach.results;
   const hasResult = busqueda.length;
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const searchValue = searchParams.get("search") || "";
+  //https://api.mercadolibre.com/sites/MLA/search?q=:searchValue
+
+  const { data: dataSeach } = useFetchData(
+    `sites/MLA/search?q=:${searchValue}`
+  );
 
   return (
     <>
       <SeachResult>
-        <FilteredRow gap={0}>
-          <Grid columns={1} gap={15}>
-            <h3>Resultado de busqueda {busqueda.length}</h3>
-            {hasResult ? (
-              busqueda.map(
+        {dataSeach && (
+          <FilteredRow gap={0}>
+            <Grid columns={1} gap={15}>
+              {dataSeach.results.map(
                 ({
                   id,
                   title,
@@ -138,12 +145,10 @@ export default function Search() {
                     </ItemData>
                   </StyledItem>
                 )
-              )
-            ) : (
-              <p> No se encontraron resultados</p>
-            )}
-          </Grid>
-        </FilteredRow>
+              )}
+            </Grid>
+          </FilteredRow>
+        )}
       </SeachResult>
     </>
   );
