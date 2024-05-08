@@ -1,7 +1,8 @@
 import styled from "styled-components";
-import { useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import IconSearch from "../Icons/Seach";
-import { useState } from "react";
+
 const FormStyle = styled.form`
   background: white;
   display: flex;
@@ -60,13 +61,24 @@ const StyledButton = styled.button`
 export default function FormSeach() {
   const navigate = useNavigate();
   const [valueInput, setValueInput] = useState("");
+  const location = useLocation();
+  const [visitedSearchPage, setVisitedSearchPage] = useState(false);
+
+  useEffect(() => {
+    if (location.pathname === "/items") {
+      setVisitedSearchPage(true);
+    }
+  }, [location.pathname]);
 
   const onHandleSubmit = (event) => {
     event.preventDefault();
 
     navigate(`/items?search=${valueInput}`, { replace: true });
-  };
 
+    if (!visitedSearchPage) {
+      setValueInput("");
+    }
+  };
   return (
     <FormStyle onSubmit={onHandleSubmit}>
       <StyledInput

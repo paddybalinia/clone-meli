@@ -1,8 +1,4 @@
-import React, { useState, useEffect } from "react";
-
 import "./App.css";
-import Header from "./components/Header/Header";
-
 import GlobalStyle from "./GlobalStyles.jsx";
 
 import Home from "./layout/Home.jsx";
@@ -18,7 +14,6 @@ function App() {
       <GlobalStyle />
 
       <BrowserRouter>
-        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/items" element={<Search />} />

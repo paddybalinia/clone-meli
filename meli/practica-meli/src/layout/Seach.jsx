@@ -6,6 +6,7 @@ import styled from "styled-components";
 import Image from "../components/Image/Image";
 import IconFull from "../components/Icons/Full";
 import { useFetchData } from "../services/fetchData";
+import Header from "../components/Header/Header";
 
 export const SeachResult = styled.div`
   margin: 40px auto;
@@ -59,7 +60,7 @@ export const ItemShipping = styled.span`
 
 export default function Search() {
   const busqueda = respondeSeach.results;
-  const hasResult = busqueda.length;
+  // const hasResult = busqueda.length;
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
   const searchValue = searchParams.get("search") || "";
@@ -71,6 +72,7 @@ export default function Search() {
 
   return (
     <>
+      <Header />
       <SeachResult>
         {dataSeach && (
           <FilteredRow gap={0}>
