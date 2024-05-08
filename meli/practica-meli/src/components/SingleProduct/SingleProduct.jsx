@@ -16,6 +16,7 @@ import {
   ProductDetailsTitle,
   ProductDetailsText,
 } from "./SingleProductStyle";
+import Header from "../Header/Header";
 
 export function SingleProduct() {
   let params = useParams();
@@ -29,29 +30,32 @@ export function SingleProduct() {
   const conditionText = data?.condition == "new" ? "Nuevo" : "Usado";
 
   return (
-    <ContentStyle>
-      {data && (
-        <ProductStyle>
-          <div>
-            {data.pictures && data.pictures[0] && (
-              <img src={data.pictures[0].url} alt={data.title} />
-            )}
-          </div>
-          <ProductInfo>
-            <ProductLabel>{conditionText}</ProductLabel>
-            <ProductTitle>{data.title}</ProductTitle>
-            <ProductButton type="button" name="Comprar" aria-label="Comprar">
-              Comprar
-            </ProductButton>
-          </ProductInfo>
-        </ProductStyle>
-      )}
-      {data2 && (
-        <ProductDetailsBox>
-          <ProductDetailsTitle>Detalle del producto</ProductDetailsTitle>
-          <ProductDetailsText>{data2.plain_text}</ProductDetailsText>
-        </ProductDetailsBox>
-      )}
-    </ContentStyle>
+    <>
+      <Header />
+      <ContentStyle>
+        {data && (
+          <ProductStyle>
+            <div>
+              {data.pictures && data.pictures[0] && (
+                <img src={data.pictures[0].url} alt={data.title} />
+              )}
+            </div>
+            <ProductInfo>
+              <ProductLabel>{conditionText}</ProductLabel>
+              <ProductTitle>{data.title}</ProductTitle>
+              <ProductButton type="button" name="Comprar" aria-label="Comprar">
+                Comprar
+              </ProductButton>
+            </ProductInfo>
+          </ProductStyle>
+        )}
+        {data2 && (
+          <ProductDetailsBox>
+            <ProductDetailsTitle>Detalle del producto</ProductDetailsTitle>
+            <ProductDetailsText>{data2.plain_text}</ProductDetailsText>
+          </ProductDetailsBox>
+        )}
+      </ContentStyle>
+    </>
   );
 }
