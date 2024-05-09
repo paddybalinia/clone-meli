@@ -8,8 +8,8 @@ const API_URL = "https://api.mercadolibre.com/";
 
 export function useFetchData(endpoint) {
   const [data, setData] = useState(null);
-  // const [isLoading, setIsLoading] = useState(false);
-  // const [error, setError] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     const fetchDataFromApi = async () => {
@@ -21,14 +21,14 @@ export function useFetchData(endpoint) {
         const responseData = await response.json();
         setData(responseData);
       } catch (error) {
-        // setError(error);
+        setError(error);
       } finally {
-        // setIsLoading(false);
+        setIsLoading(false);
       }
     };
 
     fetchDataFromApi();
   }, [endpoint]);
 
-  return { data };
+  return { data, isLoading, error };
 }

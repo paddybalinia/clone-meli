@@ -73,6 +73,7 @@ export default function Search() {
   return (
     <>
       <Header />
+
       <SeachResult>
         {dataSeach && (
           <FilteredRow gap={0}>
