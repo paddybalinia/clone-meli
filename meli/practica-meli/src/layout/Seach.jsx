@@ -60,7 +60,7 @@ export const ItemShipping = styled.span`
 
 export default function Search() {
   const busqueda = respondeSeach.results;
-  // const hasResult = busqueda.length;
+
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
   const searchValue = searchParams.get("search") || "";

@@ -1,5 +1,5 @@
 import FormSeach from "../FormSeach/FormSeach";
-import IconSearch from "../Icons/Seach";
+
 import IconLocation from "../Icons/Location";
 import IconCart from "../Icons/Cart";
 
