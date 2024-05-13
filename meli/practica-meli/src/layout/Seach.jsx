@@ -66,15 +66,19 @@ export default function Search() {
   const searchValue = searchParams.get("search") || "";
   //https://api.mercadolibre.com/sites/MLA/search?q=:searchValue
 
-  const { data: dataSeach } = useFetchData(
-    `sites/MLA/search?q=:${searchValue}`
-  );
+  const {
+    data: dataSeach,
+    isLoading,
+    error,
+  } = useFetchData(`sites/MLA/search?q=:${searchValue}`);
 
   return (
     <>
       <Header />
 
       <SeachResult>
+        {/* {isLoading && "cargando"}
+        {error && "Hubo un error"} */}
         {dataSeach && (
           <FilteredRow gap={0}>
             <Grid columns={1} gap={15}>
