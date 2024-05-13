@@ -14,6 +14,7 @@ export function useFetchData(endpoint) {
   useEffect(() => {
     const fetchDataFromApi = async () => {
       try {
+        setIsLoading(true);
         const response = await fetch(API_URL + endpoint);
         if (!response.ok) {
           throw new Error("Network response was not ok");
