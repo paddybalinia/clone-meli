@@ -25,7 +25,7 @@ export const ProductLabel = styled.span`
   color: ${(props) => props.theme.colors.colorText300};
 `;
 
-export const ProductTitle = styled.h2`
+export const ProductTitle = styled.h1`
   font-family: ${(props) => props.theme.fonts.primary};
   font-weight: 600;
   font-size: 24px;
@@ -53,7 +53,7 @@ export const ProductDetailsBox = styled.div`
   gap: 10px;
 `;
 
-export const ProductDetailsTitle = styled.h3`
+export const ProductDetailsTitle = styled.h2`
   font-family: ${(props) => props.theme.fonts.primary};
   font-size: 27px;
   line-height: 27px;
