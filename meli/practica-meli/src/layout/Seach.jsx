@@ -1,162 +1,34 @@
-import { Link, useLocation } from "react-router-dom";
-import Grid from "../components/Grid/GridContainer";
-import FilteredRow from "../components/Row/FilteredRow";
-import respondeSeach from "../mocks/seachResult.json";
-import styled from "styled-components";
-import Image from "../components/Image/Image";
-import IconFull from "../components/Icons/Full";
+import { Helmet } from "react-helmet";
+import { useLocation } from "react-router-dom";
 import { useFetchData } from "../services/fetchData";
 import Header from "../components/Header/Header";
-
-export const SeachResult = styled.div`
-  margin: 40px auto;
-`;
-
-export const StyledItem = styled.div`
-  display: flex;
-  min-width: 1160px;
-`;
-
-export const FigureStyle = styled.figure`
-  position: relative;
-  width: 240px;
-`;
-export const ItemData = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  width: 100%;
-`;
-export const ItemTitle = styled.h3`
-  color: ${(props) => props.theme.colors.colorTextDark};
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 1.3;
-`;
-export const ItemPrice = styled.span`
-  color: ${(props) => props.theme.colors.colorTextDark};
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.25;
-  margin-right: 8px;
-`;
-export const ItemInstallments = styled.span`
-  align-items: center;
-  display: flex;
-  flex-shrink: 0;
-  flex-wrap: wrap;
-  font-size: 14px;
-  font-weight: 400;
-  color: ${(props) => props.theme.colors.colorGreen};
-`;
-export const ItemShipping = styled.span`
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 14px;
-  display: flex;
-  gap: 8px;
-  color: ${(props) => props.theme.colors.colorGreen};
-`;
+import SearchResult from "../components/SeachResult/SeachResult";
 
 export default function Search() {
-  const busqueda = respondeSeach.results;
-
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
   const searchValue = searchParams.get("search") || "";
   //https://api.mercadolibre.com/sites/MLA/search?q=:searchValue
 
-  const {
-    data: dataSeach,
-    isLoading,
-    error,
-  } = useFetchData(`sites/MLA/search?q=:${searchValue}`);
+  const { data, isLoading, error } = useFetchData(
+    `sites/MLA/search?q=:${searchValue}`
+  );
 
   return (
     <>
       <Header />
+      <Helmet>
+        <title>Restado de busqueda para: {searchValue}</title>
+        <meta property="og:url" content={`/items?search=${searchValue}`} />
+        <link rel="canonical" href="/items" />
+      </Helmet>
 
-      <SeachResult>
-        {/* {isLoading && "cargando"}
-        {error && "Hubo un error"} */}
-        {dataSeach && (
-          <FilteredRow gap={0}>
-            <Grid columns={1} gap={15}>
-              {dataSeach.results.map(
-                ({
-                  id,
-                  title,
-                  thumbnail,
-                  price,
-                  shipping,
-                  installments,
-                } = busqueda) => (
-                  <StyledItem key={id}>
-                    <FigureStyle>
-                      <Link
-                        to={`/items/${id}`}
-                        title={title}
-                        rel="noopener noreferrer"
-                      >
-                        <Image
-                          src={thumbnail}
-                          width={300}
-                          height={300}
-                          title={title}
-                          alt={title}
-                        />
-                      </Link>
-                    </FigureStyle>
-
-                    <ItemData>
-                      <ItemTitle>
-                        <Link
-                          to={`/items/${id}`}
-                          title={title}
-                          rel="noopener noreferrer"
-                        >
-                          {title}
-                        </Link>
-                      </ItemTitle>
-
-                      <ItemPrice>
-                        <Link
-                          to={`/items/${id}`}
-                          title={title}
-                          rel="noopener noreferrer"
-                        >
-                          ${price}
-                        </Link>
-                      </ItemPrice>
-
-                      <ItemInstallments>
-                        <Link
-                          to={`/items/${id}`}
-                          title={title}
-                          rel="noopener noreferrer"
-                        >
-                          {installments && " En " + installments.quantity}
-
-                          {installments && " de $" + installments.amount}
-                        </Link>
-                      </ItemInstallments>
-
-                      <ItemShipping>
-                        {shipping.free_shipping && (
-                          <>
-                            <span>Llega gratis mañana</span>
-                            <IconFull />
-                          </>
-                        )}
-                      </ItemShipping>
-                    </ItemData>
-                  </StyledItem>
-                )
-              )}
-            </Grid>
-          </FilteredRow>
-        )}
-      </SeachResult>
+      <SearchResult
+        query={searchValue}
+        data={data}
+        isLoading={isLoading}
+        error={error}
+      ></SearchResult>
     </>
   );
 }

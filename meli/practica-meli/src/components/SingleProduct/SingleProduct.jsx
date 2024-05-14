@@ -1,6 +1,6 @@
 //todo
-import { useParams } from "react-router-dom";
-import { useFetchData } from "../../services/fetchData";
+// import { useParams } from "react-router-dom";
+// import { useFetchData } from "../../services/fetchData";
 
 // import Data from "../../mocks/singleProduct.json";
 // import DataInfo from "../../mocks/singleProductDesc.json";
@@ -18,14 +18,9 @@ import {
 } from "./SingleProductStyle";
 import Header from "../Header/Header";
 
-export function SingleProduct() {
-  let params = useParams();
-
-  const { data: data } = useFetchData(`items/${params.id}`);
-  const { data: data2 } = useFetchData(`items/${params.id}/description`);
-
-  // const { title, pictures, condition } = Data;
-  // const { plain_text } = DataInfo;
+export function SingleProduct({ ...params }) {
+  const data = params.product;
+  const data2 = params.desc;
 
   const conditionText = data?.condition == "new" ? "Nuevo" : "Usado";
 
