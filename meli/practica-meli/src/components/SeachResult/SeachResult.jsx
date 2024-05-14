@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import Grid from "../Grid/GridContainer";
-import FilteredRow from "../Row/FilteredRow";
 import Image from "../Image/Image";
 
 import IconFull from "../Icons/Full";
 import {
+  AsideStyle,
+  ColLeftStyle,
   FigureStyle,
   ItemData,
   ItemInstallments,
@@ -13,6 +13,8 @@ import {
   ItemTitle,
   SeachResultStyle,
   StyledItem,
+  TextResult,
+  TitleResult,
 } from "./SeachResultStyle";
 
 export default function SearchResult({ ...params }) {
@@ -20,89 +22,99 @@ export default function SearchResult({ ...params }) {
   const query =
     data && typeof data.query === "string" ? data.query.substring(1) : "";
 
+  console.log(data);
   return (
     <>
-      {data && <h1>Restuldado de busueda {query}</h1>}
       <SeachResultStyle>
-        {data && (
-          <FilteredRow gap={0}>
-            <Grid columns={1} gap={15}>
-              {data.results.map(
-                (
-                  {
-                    id,
-                    title,
-                    thumbnail,
-                    price,
-                    shipping,
-                    installments,
-                  } = data.results
-                ) => (
-                  <StyledItem key={id}>
-                    <FigureStyle>
-                      <Link
-                        to={`/items/${id}`}
-                        title={title}
-                        rel="noopener noreferrer"
-                      >
-                        <Image
-                          src={thumbnail}
-                          width={300}
-                          height={300}
-                          title={title}
-                          alt={title}
-                        />
-                      </Link>
-                    </FigureStyle>
-
-                    <ItemData>
-                      <ItemTitle>
+        <ColLeftStyle>
+          {data && (
+            <>
+              <TitleResult> {query}</TitleResult>
+              <TextResult>{data.paging.total} resultados</TextResult>
+            </>
+          )}
+        </ColLeftStyle>
+        <AsideStyle>
+          {data && (
+            <div>
+              <div>
+                {data.results.map(
+                  (
+                    {
+                      id,
+                      title,
+                      thumbnail,
+                      price,
+                      shipping,
+                      installments,
+                    } = data.results
+                  ) => (
+                    <StyledItem key={id}>
+                      <FigureStyle>
                         <Link
                           to={`/items/${id}`}
                           title={title}
                           rel="noopener noreferrer"
                         >
-                          {title}
+                          <Image
+                            src={thumbnail}
+                            width={300}
+                            height={300}
+                            title={title}
+                            alt={title}
+                          />
                         </Link>
-                      </ItemTitle>
+                      </FigureStyle>
 
-                      <ItemPrice>
-                        <Link
-                          to={`/items/${id}`}
-                          title={title}
-                          rel="noopener noreferrer"
-                        >
-                          ${price}
-                        </Link>
-                      </ItemPrice>
+                      <ItemData>
+                        <ItemTitle>
+                          <Link
+                            to={`/items/${id}`}
+                            title={title}
+                            rel="noopener noreferrer"
+                          >
+                            {title}
+                          </Link>
+                        </ItemTitle>
 
-                      <ItemInstallments>
-                        <Link
-                          to={`/items/${id}`}
-                          title={title}
-                          rel="noopener noreferrer"
-                        >
-                          {installments && " En " + installments.quantity}
+                        <ItemPrice>
+                          <Link
+                            to={`/items/${id}`}
+                            title={title}
+                            rel="noopener noreferrer"
+                          >
+                            ${price}
+                          </Link>
+                        </ItemPrice>
 
-                          {installments && " de $" + installments.amount}
-                        </Link>
-                      </ItemInstallments>
+                        <ItemInstallments>
+                          <Link
+                            to={`/items/${id}`}
+                            title={title}
+                            rel="noopener noreferrer"
+                          >
+                            {installments && " En " + installments.quantity}
 
-                      <ItemShipping>
-                        {shipping.free_shipping && (
-                          <>
-                            <span>Llega gratis mañana</span>
-                            <IconFull />
-                          </>
-                        )}
-                      </ItemShipping>
-                    </ItemData>
-                  </StyledItem>
-                )
-              )}
-            </Grid>
-          </FilteredRow>
-        )}
+                            {installments && " de $" + installments.amount}
+                          </Link>
+                        </ItemInstallments>
+
+                        <ItemShipping>
+                          {shipping.free_shipping && (
+                            <>
+                              <span>Llega gratis mañana</span>
+                              <IconFull />
+                            </>
+                          )}
+                        </ItemShipping>
+                      </ItemData>
+                    </StyledItem>
+                  )
+                )}
+              </div>
+            </div>
+          )}
+        </AsideStyle>
       </SeachResultStyle>
     </>
   );
