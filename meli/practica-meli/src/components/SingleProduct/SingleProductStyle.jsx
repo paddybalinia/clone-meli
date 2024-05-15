@@ -10,7 +10,19 @@ export const ContentStyle = styled.div`
 
 export const ProductStyle = styled.div`
   display: flex;
+  gap: 40px;
+`;
+
+export const FigureStyle = styled.figure`
+  display: flex;
   gap: 20px;
+  height: 600px;
+  flex: 0 0 60%;
+`;
+export const ImgStyle = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 `;
 
 export const ProductInfo = styled.div`

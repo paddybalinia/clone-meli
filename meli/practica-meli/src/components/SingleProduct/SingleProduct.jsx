@@ -14,7 +14,9 @@ import {
   ProductInfo,
   ProductDetailsBox,
   ProductDetailsTitle,
+  FigureStyle,
   ProductDetailsText,
+  ImgStyle,
 } from "./SingleProductStyle";
 import Header from "../Header/Header";
 
@@ -30,11 +32,11 @@ export function SingleProduct({ ...params }) {
       <ContentStyle>
         {data && (
           <ProductStyle>
-            <div>
+            <FigureStyle>
               {data.pictures && data.pictures[0] && (
-                <img src={data.pictures[0].url} alt={data.title} />
+                <ImgStyle src={data.pictures[0].url} alt={data.title} />
               )}
-            </div>
+            </FigureStyle>
             <ProductInfo>
               <ProductLabel>{conditionText}</ProductLabel>
               <ProductTitle>{data.title}</ProductTitle>

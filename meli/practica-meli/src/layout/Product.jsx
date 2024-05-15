@@ -17,7 +17,7 @@ export function Product() {
           description={`Envíos gratis en el día ✓ ${data.title}`}
         />
       )}
-      <SingleProduct product={data} desc={data2} />;
+      <SingleProduct product={data} desc={data2} />
     </>
   );
 }
