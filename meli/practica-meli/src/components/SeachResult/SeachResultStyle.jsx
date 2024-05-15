@@ -16,6 +16,11 @@ export const AsideStyle = styled.aside`
   display: flex;
   padding: 25px 20px;
 `;
+export const AsideColStyle = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+`;
 export const ColLeftStyle = styled.div`
   flex: 231px;
 `;
@@ -34,6 +39,7 @@ export const TitleResult = styled.h1`
 `;
 export const StyledItem = styled.div`
   display: flex;
+  gap: 30px;
 `;
 
 export const FigureStyle = styled.figure`
@@ -46,7 +52,7 @@ export const ItemData = styled.div`
   gap: 5px;
   width: 100%;
 `;
-export const ItemTitle = styled.h3`
+export const ItemTitle = styled.h2`
   color: ${(props) => props.theme.colors.colorTextDark};
   font-size: 20px;
   font-weight: 300;

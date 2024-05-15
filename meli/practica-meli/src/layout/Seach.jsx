@@ -19,8 +19,16 @@ export default function Search() {
       <Header />
       <Helmet>
         <title>Restado de busqueda para: {searchValue}</title>
-        <meta property="og:url" content={`/items?search=${searchValue}`} />
-        <link rel="canonical" href="/items" />
+
+        <meta name="description" content="Descripción de mi página" />
+        <meta
+          property="og:url"
+          content={`${window.location.origin}/items?search=${searchValue}`}
+        />
+        <link
+          rel="canonical"
+          href={window.location.origin + location.pathname}
+        />
       </Helmet>
 
       <SearchResult

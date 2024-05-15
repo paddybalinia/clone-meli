@@ -3,6 +3,7 @@ import Image from "../Image/Image";
 
 import IconFull from "../Icons/Full";
 import {
+  AsideColStyle,
   AsideStyle,
   ColLeftStyle,
   FigureStyle,
@@ -22,7 +23,6 @@ export default function SearchResult({ ...params }) {
   const query =
     data && typeof data.query === "string" ? data.query.substring(1) : "";
 
-  console.log(data);
   return (
     <>
       <SeachResultStyle>
@@ -36,83 +36,81 @@ export default function SearchResult({ ...params }) {
         </ColLeftStyle>
         <AsideStyle>
           {data && (
-            <div>
-              <div>
-                {data.results.map(
-                  (
-                    {
-                      id,
-                      title,
-                      thumbnail,
-                      price,
-                      shipping,
-                      installments,
-                    } = data.results
-                  ) => (
-                    <StyledItem key={id}>
-                      <FigureStyle>
+            <AsideColStyle>
+              {data.results.map(
+                (
+                  {
+                    id,
+                    title,
+                    thumbnail,
+                    price,
+                    shipping,
+                    installments,
+                  } = data.results
+                ) => (
+                  <StyledItem key={id}>
+                    <FigureStyle>
+                      <Link
+                        to={`/items/${id}`}
+                        title={title}
+                        rel="noopener noreferrer"
+                      >
+                        <Image
+                          src={thumbnail}
+                          width={300}
+                          height={300}
+                          title={title}
+                          alt={title}
+                        />
+                      </Link>
+                    </FigureStyle>
+
+                    <ItemData>
+                      <ItemTitle>
                         <Link
                           to={`/items/${id}`}
                           title={title}
                           rel="noopener noreferrer"
                         >
-                          <Image
-                            src={thumbnail}
-                            width={300}
-                            height={300}
-                            title={title}
-                            alt={title}
-                          />
+                          {title}
                         </Link>
-                      </FigureStyle>
+                      </ItemTitle>
 
-                      <ItemData>
-                        <ItemTitle>
-                          <Link
-                            to={`/items/${id}`}
-                            title={title}
-                            rel="noopener noreferrer"
-                          >
-                            {title}
-                          </Link>
-                        </ItemTitle>
+                      <ItemPrice>
+                        <Link
+                          to={`/items/${id}`}
+                          title={title}
+                          rel="noopener noreferrer"
+                        >
+                          ${price}
+                        </Link>
+                      </ItemPrice>
 
-                        <ItemPrice>
-                          <Link
-                            to={`/items/${id}`}
-                            title={title}
-                            rel="noopener noreferrer"
-                          >
-                            ${price}
-                          </Link>
-                        </ItemPrice>
+                      <ItemInstallments>
+                        <Link
+                          to={`/items/${id}`}
+                          title={title}
+                          rel="noopener noreferrer"
+                        >
+                          {installments && " En " + installments.quantity}
 
-                        <ItemInstallments>
-                          <Link
-                            to={`/items/${id}`}
-                            title={title}
-                            rel="noopener noreferrer"
-                          >
-                            {installments && " En " + installments.quantity}
+                          {installments && " de $" + installments.amount}
+                        </Link>
+                      </ItemInstallments>
 
-                            {installments && " de $" + installments.amount}
-                          </Link>
-                        </ItemInstallments>
-
-                        <ItemShipping>
-                          {shipping.free_shipping && (
-                            <>
-                              <span>Llega gratis mañana</span>
-                              <IconFull />
-                            </>
-                          )}
-                        </ItemShipping>
-                      </ItemData>
-                    </StyledItem>
-                  )
-                )}
-              </div>
-            </div>
+                      <ItemShipping>
+                        {shipping.free_shipping && (
+                          <>
+                            <span>Llega gratis mañana</span>
+                            <IconFull />
+                          </>
+                        )}
+                      </ItemShipping>
+                    </ItemData>
+                  </StyledItem>
+                )
+              )}
+            </AsideColStyle>
           )}
         </AsideStyle>
       </SeachResultStyle>

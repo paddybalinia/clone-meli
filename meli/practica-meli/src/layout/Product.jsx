@@ -11,7 +11,21 @@ export function Product() {
   const { data: data2 } = useFetchData(`items/${param.id}/description`);
   return (
     <>
-      <Helmet>{data && <title>{data.title}</title>}</Helmet>
+      <Helmet>
+        {data && <title>{data.title}</title>}
+        {data && (
+          <meta
+            name="description"
+            content={`Envíos gratis en el día ✓ ${data.title}`}
+          />
+        )}
+
+        <meta property="og:url" content={window.location.origin} />
+        <link
+          rel="canonical"
+          href={window.location.origin + location.pathname}
+        />
+      </Helmet>
       <SingleProduct product={data} desc={data2} />;
     </>
   );
