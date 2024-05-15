@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import { useFetchData } from "../services/fetchData";
 import Header from "../components/Header/Header";
 import SearchResult from "../components/SeachResult/SeachResult";
+import { Head } from "../components/Head/Head";
 
 export default function Search() {
   const location = useLocation();
@@ -17,19 +18,11 @@ export default function Search() {
   return (
     <>
       <Header />
-      <Helmet>
-        <title>Restado de busqueda para: {searchValue}</title>
 
-        <meta name="description" content="Descripción de mi página" />
-        <meta
-          property="og:url"
-          content={`${window.location.origin}/items?search=${searchValue}`}
-        />
-        <link
-          rel="canonical"
-          href={window.location.origin + location.pathname}
-        />
-      </Helmet>
+      <Head
+        title={`Restado de busqueda para: ${searchValue}`}
+        description={`Envíos Gratis en el día ✓ Comprá ${searchValue} en cuotas sin interés! Conocé nuestras increíbles ofertas y promociones en millones de productos.`}
+      ></Head>
 
       <SearchResult
         query={searchValue}
