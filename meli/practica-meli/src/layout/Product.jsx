@@ -1,7 +1,7 @@
 //todo
 import { useParams } from "react-router-dom";
+import { Head } from "../components/Head/Head";
 import { SingleProduct } from "../components/SingleProduct/SingleProduct";
-import { Helmet } from "react-helmet";
 import { useFetchData } from "../services/fetchData";
 
 export function Product() {
@@ -11,21 +11,12 @@ export function Product() {
   const { data: data2 } = useFetchData(`items/${param.id}/description`);
   return (
     <>
-      <Helmet>
-        {data && <title>{data.title}</title>}
-        {data && (
-          <meta
-            name="description"
-            content={`Envíos gratis en el día ✓ ${data.title}`}
-          />
-        )}
-
-        <meta property="og:url" content={window.location.origin} />
-        <link
-          rel="canonical"
-          href={window.location.origin + location.pathname}
+      {data && (
+        <Head
+          title={data.title}
+          description={`Envíos gratis en el día ✓ ${data.title}`}
         />
-      </Helmet>
+      )}
       <SingleProduct product={data} desc={data2} />;
     </>
   );

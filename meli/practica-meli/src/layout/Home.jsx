@@ -1,23 +1,15 @@
 import BlockHome from "../components/BlockHome/BlockHome";
-import { Helmet } from "react-helmet";
-import { useLocation } from "react-router-dom";
+
+import { Head } from "../components/Head/Head";
 
 export default function Home() {
-  const location = useLocation();
+  // const location = useLocation();
   return (
     <>
-      <Helmet>
-        <title>Home | Meli</title>
-        <meta name="description" content="Descripción de mi página" />
-        <meta
-          property="og:url"
-          content={window.location.origin + location.pathname}
-        />
-        <link
-          rel="canonical"
-          href={window.location.origin + location.pathname}
-        />
-      </Helmet>
+      <Head
+        title="Home | Meli"
+        description="Encontrá las mejores Ofertas en Electrodomésticos Celulares, Zapatillas y más para Hot Sale 2024."
+      />
       <BlockHome />;
     </>
   );
