@@ -25,7 +25,7 @@ export function SingleProduct({ ...params }) {
   const data2 = params.desc;
 
   const conditionText = data?.condition == "new" ? "Nuevo" : "Usado";
-
+  console.log(data);
   return (
     <>
       <Header />

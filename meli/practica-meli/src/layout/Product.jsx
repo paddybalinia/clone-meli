@@ -6,9 +6,9 @@ import { useFetchData } from "../services/fetchData";
 
 export function Product() {
   let param = useParams();
-
   const { data: data } = useFetchData(`items/${param.id}`);
   const { data: data2 } = useFetchData(`items/${param.id}/description`);
+
   return (
     <>
       {data && (

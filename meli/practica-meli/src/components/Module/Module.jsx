@@ -6,7 +6,7 @@ const ModuleStyle = styled.div`
   padding: 20px;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
 `;
-const ModuleTitle = styled.h2`
+const ModuleTitle = styled.h3`
   margin: 0 0 20px;
   font-weight: 600;
   font-size: 20px;

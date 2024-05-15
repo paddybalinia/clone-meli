@@ -16,7 +16,7 @@ export const FigureStyle = styled.figure`
   max-width: 210px;
 `;
 
-export const ItemProductTitle = styled.h3`
+export const ItemProductTitle = styled.h2`
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
