@@ -6,7 +6,7 @@ import { useFetchData } from "../services/fetchData";
 
 export function Product() {
   let param = useParams();
-  const { data: data } = useFetchData(`items/${param.id}`);
+  const { data: data, isLoading } = useFetchData(`items/${param.id}`);
   const { data: data2 } = useFetchData(`items/${param.id}/description`);
 
   return (
@@ -17,7 +17,7 @@ export function Product() {
           description={`Envíos gratis en el día ✓ ${data.title}`}
         />
       )}
-      <SingleProduct product={data} desc={data2} />
+      <SingleProduct product={data} desc={data2} isLoading={isLoading} />
     </>
   );
 }

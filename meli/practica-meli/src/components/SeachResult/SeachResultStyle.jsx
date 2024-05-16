@@ -2,14 +2,16 @@ import styled from "styled-components";
 export const SeachResultStyle = styled.main`
   display: flex;
   gap: 20px;
-
-  max-width: 1220px;
   margin: 40px auto;
-
-  display: flex;
-  flex-direction: row;
-
+  flex-direction: column;
+  padding: 0 10px;
+  max-width: 1220px;
+  box-sizing: border-box;
   width: 100%;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
 `;
 export const AsideStyle = styled.aside`
   background-color: white;
@@ -22,7 +24,9 @@ export const AsideColStyle = styled.div`
   gap: 15px;
 `;
 export const ColLeftStyle = styled.div`
-  flex: 231px;
+  @media (min-width: 768px) {
+    flex: 231px;
+  }
 `;
 export const TextResult = styled.span`
   color: ${(props) => props.theme.colors.colorTextDark};

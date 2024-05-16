@@ -13,7 +13,10 @@ export const ItemProductData = styled.div`
 
 export const FigureStyle = styled.figure`
   position: relative;
-  max-width: 210px;
+  width: 100%;
+  @media (min-width: 768px) {
+    max-width: 210px;
+  }
 `;
 
 export const ItemProductTitle = styled.h2`
