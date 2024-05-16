@@ -20,6 +20,7 @@ import {
 
 export default function SearchResult({ ...params }) {
   const data = params.data;
+  const hasProducts = data && data.results.length > 0;
   const query =
     data && typeof data.query === "string" ? data.query.substring(1) : "";
 
@@ -34,8 +35,8 @@ export default function SearchResult({ ...params }) {
             </>
           )}
         </ColLeftStyle>
-        <AsideStyle>
-          {data && (
+        {hasProducts && (
+          <AsideStyle>
             <AsideColStyle>
               {data.results.map(
                 (
@@ -111,8 +112,8 @@ export default function SearchResult({ ...params }) {
                 )
               )}
             </AsideColStyle>
-          )}
-        </AsideStyle>
+          </AsideStyle>
+        )}
       </SeachResultStyle>
     </>
   );

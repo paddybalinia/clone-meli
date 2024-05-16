@@ -16,6 +16,29 @@ export const HeaderStyle = styled.header`
     gap: 25px;
   }
 `;
+export const HeaderRowStyle = styled(
+  ({ flexDirection, justifyContent, alignItems, gap, ...rest }) => (
+    <div {...rest} />
+  )
+)`
+  display: flex;
+
+  flex-direction: row;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+  gap: 0;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    gap: ${(props) => props.gap + "px" || "0"};
+    justify-content: ${(props) => props.justifyContent || "flex-start"};
+    align-items: ${(props) => props.alignItems || "flex-start"};
+    flex-direction: ${(props) => props.flexDirection || "row"};
+    width: 100%;
+  }
+`;
 
 export const RowStyle = styled.div`
   max-width: 1220px;

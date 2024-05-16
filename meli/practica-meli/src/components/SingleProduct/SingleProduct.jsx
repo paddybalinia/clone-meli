@@ -19,40 +19,51 @@ import {
   ImgStyle,
 } from "./SingleProductStyle";
 import Header from "../Header/Header";
+import Loading from "../Loading/Loading";
 
 export function SingleProduct({ ...params }) {
   const data = params.product;
   const data2 = params.desc;
 
-  const conditionText = data?.condition == "new" ? "Nuevo" : "Usado";
+  const { isLoading } = params;
 
+  const conditionText = data?.condition == "new" ? "Nuevo" : "Usado";
+  console.log(data);
   return (
     <>
       <Header />
-      <ContentStyle>
-        {data && (
-          <ProductStyle>
-            <FigureStyle>
-              {data.pictures && data.pictures[0] && (
-                <ImgStyle src={data.pictures[0].url} alt={data.title} />
-              )}
-            </FigureStyle>
-            <ProductInfo>
-              <ProductLabel>{conditionText}</ProductLabel>
-              <ProductTitle>{data.title}</ProductTitle>
-              <ProductButton type="button" name="Comprar" aria-label="Comprar">
-                Comprar
-              </ProductButton>
-            </ProductInfo>
-          </ProductStyle>
-        )}
-        {data2 && (
-          <ProductDetailsBox>
-            <ProductDetailsTitle>Detalle del producto</ProductDetailsTitle>
-            <ProductDetailsText>{data2.plain_text}</ProductDetailsText>
-          </ProductDetailsBox>
-        )}
-      </ContentStyle>
+      {isLoading ? (
+        <Loading />
+      ) : (
+        <ContentStyle>
+          {data && (
+            <ProductStyle>
+              <FigureStyle>
+                {data.pictures && data.pictures[0] && (
+                  <ImgStyle src={data.pictures[0].url} alt={data.title} />
+                )}
+              </FigureStyle>
+              <ProductInfo>
+                <ProductLabel>{conditionText}</ProductLabel>
+                <ProductTitle>{data.title}</ProductTitle>
+                <ProductButton
+                  type="button"
+                  name="Comprar"
+                  aria-label="Comprar"
+                >
+                  Comprar
+                </ProductButton>
+              </ProductInfo>
+            </ProductStyle>
+          )}
+          {data2 && (
+            <ProductDetailsBox>
+              <ProductDetailsTitle>Detalle del producto</ProductDetailsTitle>
+              <ProductDetailsText>{data2.plain_text}</ProductDetailsText>
+            </ProductDetailsBox>
+          )}
+        </ContentStyle>
+      )}
     </>
   );
 }

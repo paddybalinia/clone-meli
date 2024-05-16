@@ -12,6 +12,7 @@ const FormStyle = styled.form`
   flex: 1;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
+  height: 43px;
 
   @media (min-width: 768px) {
     max-width: 592px;

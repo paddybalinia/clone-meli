@@ -1,23 +1,35 @@
 import styled from "styled-components";
 
 export const ContentStyle = styled.div`
-  margin: 40px auto;
+  margin: 40px 10px;
   background-color: white;
   padding: 20px;
   max-width: 1200px;
   box-sizing: border-box;
+
+  @media (min-width: 768px) {
+    margin: 40px auto;
+  }
 `;
 
 export const ProductStyle = styled.div`
   display: flex;
   gap: 40px;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
 `;
 
 export const FigureStyle = styled.figure`
   display: flex;
   gap: 20px;
-  height: 600px;
-  flex: 0 0 60%;
+  height: 300px;
+  @media (min-width: 768px) {
+    flex: 0 0 60%;
+    height: 600px;
+  }
 `;
 export const ImgStyle = styled.img`
   width: 100%;
