@@ -95,21 +95,21 @@ const GlobalStyle = createGlobalStyle`
 
   @font-face {
       font-family: "ProximaNova";
-      src: url("/src/fonts/ProximaNova-400.woff2") format("woff2");
+      src: url("/fonts/ProximaNova-400.woff2") format("woff2");
       font-weight: 400;
       font-display: swap;
     }
 
     @font-face {
       font-family: "ProximaNova";
-      src: url("/src/fonts/ProximaNova-500.woff2") format("woff2");
+      src: url("/fonts/ProximaNova-500.woff2") format("woff2");
       font-weight: 500;
       font-display: swap;
     }
 
     @font-face {
       font-family: "ProximaNova";
-      src: url("/src/fonts/ProximaNova-600.woff2") format("woff2");
+      src: url("/fonts/ProximaNova-600.woff2") format("woff2");
       font-weight: 600;
       font-display: swap;
     }  
