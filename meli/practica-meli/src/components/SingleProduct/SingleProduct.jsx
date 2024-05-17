@@ -40,7 +40,11 @@ export function SingleProduct({ ...params }) {
             <ProductStyle>
               <FigureStyle>
                 {data.pictures && data.pictures[0] && (
-                  <ImgStyle src={data.pictures[0].url} alt={data.title} />
+                  <ImgStyle
+                    src={data.pictures[0].url}
+                    alt={data.title}
+                    title={data.title}
+                  />
                 )}
               </FigureStyle>
               <ProductInfo>
