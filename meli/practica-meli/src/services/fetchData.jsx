@@ -1,3 +1,4 @@
+// apiService.js
 import { useState, useEffect } from "react";
 
 const API_URL = "https://api.mercadolibre.com/";
