@@ -10,7 +10,7 @@ export default function Home() {
         title="Home | Meli"
         description="Encontrá las mejores Ofertas en Electrodomésticos Celulares, Zapatillas y más para Hot Sale 2024."
       />
-      <BlockHome />;
+      <BlockHome />
     </>
   );
 }
